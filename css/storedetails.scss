@@ -1,0 +1,301 @@
+@import "domo";
+body{
+  background: #fcfcfc;
+}
+header{
+  padding: 0.2rem 0.26rem;
+  height: 1rem;
+  width: 100%;
+  border-bottom: 1px solid #eee;
+  position: fixed;
+  top:0;
+  left: 0;
+  z-index: 99999;
+  background: #fff;
+  .edit{
+    width: 0.2rem;
+    height: 0.34rem;
+    float: left;
+    background-image: url(../images/596932904110395182.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 0.14rem;
+  }
+  h1{
+    line-height: 0.6rem;
+    font-size: 0.3rem;
+    font-weight: inherit;
+    color: #333;
+    text-align: center;
+    margin-right: 0.5rem;
+  }
+  span{
+    font-size: 0.28rem;
+    color: #333;
+    display: block;
+    float: right;
+    margin-top: 0.1rem;
+  }
+}
+.storelist{
+  @include Flexcolumn;
+  background: #fff;
+  padding: 0.1rem 0.2rem;
+  .store-name{
+    @include Flex;
+    margin-bottom: 0.1rem;
+    .store-pic{
+      width: 1.1rem;
+      height: 1.1rem;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      margin-right: 0.2rem;
+    }
+    .namebox{
+      @include Flexcolumn;
+      span{
+        font-size: 0.28rem;
+        color: #666;
+        margin-bottom: 0.1rem;
+        margin-top: 0.15rem;
+      }
+      .name-pic{
+        width: 1.4rem;
+        height: 0.3rem;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+      }
+    }
+  }
+  p{
+    font-size: 0.3rem;
+    color: #000;
+    margin-bottom: 0.2rem;
+  }
+  .integral{
+    @include Flexbetween;
+    margin-bottom: 0.2rem;
+    width: 80%;
+    .jifen{
+      font-size: 0.28rem;
+      color: #ff4c61;
+    }
+    .stockbox{
+      @include Flexcbetween;
+      .price{
+        font-size: 0.22rem;
+        color:#666;
+        text-decoration:line-through;
+      }
+      .stock{
+        font-size: 0.22rem;
+        color:#666;
+      }
+    }
+  }
+  .store-ment{
+    @include Flex;
+    margin-bottom: 0.1rem;
+    .ment-pic{
+      width: 0.32rem;
+      height: 0.32rem;
+      background-image: url(../images/th20170927152911.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      margin-right: 0.2rem;
+      margin-top: 0.02rem;
+    }
+    span{
+      font-size: 0.26rem;
+      color:#fe8f73;
+    }
+  }
+}
+footer{
+  @include Flexend;
+  background: #fff;
+  height: 1rem;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 99999;
+  .join,.exchange{
+    width: 30%;
+    height: 1rem;
+    text-align: center;
+    line-height: 1rem;
+    color: #fff;
+    font-size: 0.28rem;
+  }
+  .join{
+    background:#fe8f73;
+  }
+  .exchange{
+    background: #ff4c61;
+  }
+}
+.continue{
+  font-size: 0.24rem;
+  color: #000;
+  text-align: center;
+  line-height: 0.57rem;
+  //position: fixed;
+  //bottom: 1.2rem;
+  //left: 50%;
+  //margin-left: -1.5rem;
+}
+.shop-popup{
+  //@include Flexcbetween;
+  background: #fff;
+  height: 5.5rem;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 9999999;
+  display: none;
+  .popuprow{
+    @include Flexcolumn;
+    padding: 0 0.3rem;
+    .popupweight{
+      @include Flexcolumn;
+      border-bottom: 1px solid #eee;
+      margin-bottom: 0.1rem;
+      .weight-s{
+        @include Flex;
+        .weightpic{
+          width: 1.6rem;
+          height: 1.6rem;
+          background-image: url(../images/mb1506578530.png);
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+          margin:-0.3rem 0.3rem 0.3rem 0.2rem;
+        }
+        .jifenbox{
+          @include Flexcolumn;
+          .hjifen{
+            font-size: 0.3rem;
+            color: #ff4c61;
+            padding: 0.2rem 0;
+          }
+          .w-stock{
+            font-size: 0.24rem;
+            color: #666;
+          }
+        }
+      }
+      i{
+        font-size: 0.24rem;
+        color: #666;
+      }
+      .weight-x{
+        text-align: center;
+        font-size: 0.28rem;
+        color: #000;
+        border: 1px solid #666;
+        width: 4rem;
+        padding: 0.05rem;
+        margin: 0.1rem 0 0.2rem 0.2rem;
+        border-radius: 0.05rem;
+        &.active{
+          border: 1px solid #fe8f73;
+          color: #fff;
+          background:#fe8f73;
+        }
+      }
+    }
+    .popupnum{
+      @include Flexbetween;
+      i{
+        font-size: 0.24rem;
+        color: #666;
+      }
+      .limit{
+        @include Flexbetween;
+        .limitnum{
+          font-size: 0.24rem;
+          color: #666;
+          margin-right: 0.2rem;
+        }
+        .addandsubtract{
+          width: 1.6rem;
+          height: 0.4rem;
+          border: 1px solid #999999;
+          @include Flex;
+          .subtract{
+            text-align: center;
+            line-height: 0.3rem;
+            font-size: 0.4rem;
+            color:#666;
+            width: 0.4rem;
+            height: 0.39rem;
+            border-right:1px solid #999;
+          }
+          .number{
+            text-align: center;
+            line-height: 0.4rem;
+            font-size: 0.24rem;
+            color:#000;
+            width: 0.8rem;
+            height: 0.39rem;
+            border-right:1px solid #999;
+          }
+          .add{
+            text-align: center;
+            line-height: 0.35rem;
+            font-size: 0.3rem;
+            color:#666;
+            width: 0.4rem;
+            height: 0.39rem;
+          }
+        }
+      }
+    }
+  }
+  .popupfooter{
+    @include Flex;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 99999999;
+    .joinshopcart{
+      font-size: 0.3rem;
+      width: 50%;
+      color: #fff;
+      background: #fe8f73;
+      text-align: center;
+      height: 1rem;
+      line-height: 1rem;
+    }
+    .atonce{
+      background: #ff4c61;
+    }
+  }
+}
+.success{
+  background: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  width: 1.5rem;
+  height: 0.7rem;
+  font-size: 0.24rem;
+  color: #fff;
+  border-radius: 0.08rem;
+  line-height: 0.5rem;
+  padding: 0.1rem;
+  position: absolute;
+  bottom: -1rem;
+  left: 50%;
+  z-index: 99998;
+  margin-left: -0.75rem;
+  transition: transform 0.3s cubic-bezier(0.21, 0.55, 0.18, 1.22);
+}
+.success.active{
+  transform:translate(0,-1.5rem)
+}

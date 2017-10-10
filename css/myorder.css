@@ -1,0 +1,240 @@
+body {
+  background: #fcfcfc;
+}
+
+header {
+  padding: 0.2rem 0.26rem;
+  height: 1rem;
+  width: 100%;
+  border-bottom: 1px solid #eee;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+  background: #fff;
+}
+
+header .edit {
+  width: 0.2rem;
+  height: 0.34rem;
+  float: left;
+  background-image: url(../images/596932904110395182.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 0.14rem;
+}
+
+header h1 {
+  line-height: 0.6rem;
+  font-size: 0.3rem;
+  font-weight: inherit;
+  color: #333;
+  text-align: center;
+}
+
+.orderbox {
+  margin-top: 1rem;
+  border-bottom: 1px solid #eee;
+}
+
+.orderbox .stayorder {
+  background: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-around;
+}
+
+.orderbox .stayorder li {
+  font-size: 0.24rem;
+  color: #000;
+  width: 20%;
+  text-align: center;
+  padding: 0.15rem 0;
+}
+
+.orderbox .stayorder li.active {
+  color: #ff4c61;
+  border-bottom: 2px solid #ff4c61;
+}
+
+section .payment {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-bottom: 0.2rem;
+}
+
+section .payment .paymentBox {
+  border-bottom: 1px solid #eee;
+  background: #fff;
+}
+
+section .payment .paymentBox .payment-store {
+  padding: 0.1rem 0.24rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+section .payment .paymentBox .payment-store span {
+  font-size: 0.2rem;
+  color: #000;
+}
+
+section .payment .paymentBox .payment-store i {
+  font-size: 0.2rem;
+  color: #f14d91;
+}
+
+section .payment .paymentRow {
+  background: #f5f5f5;
+}
+
+section .payment .paymentRow .payment-row {
+  padding: 0.2rem 0.2rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section .payment .paymentRow .payment-row .paymentpic {
+  width: 1.74rem;
+  height: 1.74rem;
+  background: red;
+}
+
+section .payment .paymentRow .payment-row .payment-box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 75%;
+}
+
+section .payment .paymentRow .payment-row .payment-box .payment-inn {
+  font-size: 0.24rem;
+  color: #000;
+  margin: 0.1rem 0 0 0.3rem;
+}
+
+section .payment .paymentRow .payment-row .payment-box .payment-price {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-left: 0.3rem;
+}
+
+section .payment .paymentRow .payment-row .payment-box .payment-price .color {
+  font-size: 0.2rem;
+  color: #666;
+  margin-bottom: 0.15rem;
+}
+
+section .payment .paymentRow .payment-row .payment-box .payment-price .price-box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+section .payment .paymentRow .payment-row .payment-box .payment-price .price-box .price {
+  font-size: 0.24rem;
+  color: #000;
+}
+
+section .payment .paymentRow .payment-row .payment-box .payment-price .price-box .price-num {
+  font-size: 0.24rem;
+  color: #000;
+}
+
+section .payment .payment-allbox {
+  border-bottom: 1px solid #eee;
+  background: #fff;
+}
+
+section .payment .payment-allbox .payment-inall {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: flex-end;
+  -moz-justify-content: flex-end;
+  -ms-justify-content: flex-end;
+  -o-justify-content: flex-end;
+  justify-content: flex-end;
+  padding: 0.1rem 0.24rem;
+}
+
+section .payment .payment-allbox .payment-inall span {
+  font-size: 0.18rem;
+  color: #666;
+}
+
+section .payment .payment-allbox .payment-inall i {
+  font-size: 0.24rem;
+  color: #000;
+}
+
+section .payment .payment-footer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: flex-end;
+  -moz-justify-content: flex-end;
+  -ms-justify-content: flex-end;
+  -o-justify-content: flex-end;
+  justify-content: flex-end;
+  background: #fff;
+  padding: 0.1rem 0.24rem;
+}
+
+section .payment .payment-footer .see {
+  font-size: 0.24rem;
+  border: 1px solid #666;
+  border-radius: 0.1rem;
+  padding: 0.03rem 0.1rem;
+  width: 1.2rem;
+  text-align: center;
+  margin-left: 0.2rem;
+}
+
+section .payment .payment-footer .confirm {
+  border: 1px solid #ff4c61;
+  color: #ff4c61;
+}

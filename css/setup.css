@@ -1,0 +1,124 @@
+header {
+  padding: 0.2rem 0.26rem;
+  height: 1rem;
+  width: 100%;
+  border-bottom: 1px solid #eee;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+  background: #fff;
+}
+
+header .edit {
+  width: 0.2rem;
+  height: 0.34rem;
+  float: left;
+  background-image: url(../images/596932904110395182.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 0.14rem;
+}
+
+header h1 {
+  line-height: 0.6rem;
+  font-size: 0.3rem;
+  font-weight: inherit;
+  color: #333;
+  text-align: center;
+}
+
+.setup {
+  margin-top: 1rem;
+}
+
+.setup li {
+  border-bottom: 1px solid #eee;
+}
+
+.setup li .toppt {
+  padding: 0.2rem 0.26rem;
+  line-height: 0.8rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.setup li .toppt .libefore {
+  width: 15%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.setup li .toppt .libefore .topimg {
+  width: 0.36rem;
+  height: 0.36rem;
+  background-image: url(../images/setup20170925104831.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 0.2rem;
+}
+
+.setup li .toppt .libefore .nickimg {
+  width: 0.36rem;
+  height: 0.36rem;
+  background-image: url(../images/setup20170925104853.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 0.2rem;
+}
+
+.setup li .toppt .libefore p {
+  font-size: 0.28rem;
+  color: #666;
+}
+
+.setup li .toppt .liafter {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.setup li .toppt .liafter .settop {
+  width: 0.8rem;
+  height: 0.8rem;
+  background-image: url(../images/duiduoduo@2x.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.setup li .toppt .liafter span {
+  font-size: 0.28rem;
+  color: #666;
+  margin-top: 0.02rem;
+}
+
+.setup li .toppt .liafter .clickset {
+  width: 0.15rem;
+  height: 0.25rem;
+  background-image: url(../images/arrow.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 0.3rem;
+}

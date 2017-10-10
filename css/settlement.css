@@ -1,0 +1,145 @@
+body {
+  background: #fcfcfc;
+}
+
+header {
+  padding: 0.2rem 0.26rem;
+  height: 1rem;
+  width: 100%;
+  border-bottom: 1px solid #eee;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+  background: #fff;
+}
+
+header .edit {
+  width: 0.2rem;
+  height: 0.34rem;
+  float: left;
+  background-image: url(../images/596932904110395182.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 0.14rem;
+}
+
+header span {
+  font-size: 0.28rem;
+  color: #333;
+  display: block;
+  float: right;
+  margin-top: 0.1rem;
+}
+
+.address-box {
+  margin-top: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background: #fff;
+}
+
+.address-box .address {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.address-box .address .addpic {
+  height: 0.5rem;
+  width: 0.4rem;
+  background: url("../images/dz20170928140522.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.address-box .address .addinfo {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.address-box .address .addinfo .addname {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.address-box .address .addinfo .addname .name {
+  font-size: 0.24rem;
+  color: #000;
+}
+
+.address-box .address .addinfo .addname .phone {
+  font-size: 0.24rem;
+  color: #000;
+}
+
+.address-box .address .addinfo .goodsadd {
+  font-size: 0.24rem;
+  color: #000;
+}
+
+.address-box .addfoot {
+  height: 0.1rem;
+  background: url("../images/tiao20171009173852.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+footer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: flex-end;
+  -moz-justify-content: flex-end;
+  -ms-justify-content: flex-end;
+  -o-justify-content: flex-end;
+  justify-content: flex-end;
+  background: #fff;
+  height: 1rem;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 99999;
+}
+
+footer .join, footer .exchange {
+  height: 1rem;
+  text-align: center;
+  line-height: 1rem;
+  color: #fff;
+  font-size: 0.28rem;
+}
+
+footer .join {
+  background: #fe8f73;
+  width: 35%;
+}
+
+footer .exchange {
+  background: #ff4c61;
+  width: 65%;
+}

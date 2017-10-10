@@ -1,0 +1,142 @@
+@import "domo";
+body{
+  background: #fcfcfc;
+}
+header{
+  padding: 0.2rem 0.26rem;
+  height: 1rem;
+  width: 100%;
+  border-bottom: 1px solid #eee;
+  position: fixed;
+  top:0;
+  left: 0;
+  z-index: 99999;
+  background: #fff;
+  .edit{
+    width: 0.2rem;
+    height: 0.34rem;
+    float: left;
+    background-image: url(../images/596932904110395182.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 0.14rem;
+  }
+  h1{
+    line-height: 0.6rem;
+    font-size: 0.3rem;
+    font-weight: inherit;
+    color: #333;
+    text-align: center;
+  }
+}
+section{
+  margin-top: 1rem;
+  ul{
+    li{
+      @include Flexcolumn;
+      background: #fff;
+      margin-bottom: 0.2rem;
+      .address{
+        border-bottom: 1px solid #eee;
+        .addressrow{
+          padding: 0.2rem 0.26rem;
+          @include Flexcolumn;
+          .addressrow-name{
+            @include Flexbetween;
+            margin-bottom: 0.2rem;
+            .name{
+              font-size: 0.28rem;
+              color: #666;
+            }
+            .photonum{
+              font-size: 0.28rem;
+              color: #666;
+            }
+          }
+          .addressrow-add{
+            font-size: 0.28rem;
+            color: #666;
+          }
+        }
+      }
+      .default{
+        @include Flexbetween;
+        padding: 0.2rem 0.26rem;
+        .default-add{
+          @include Flexbetween;
+          .arc{
+            margin-right: 0.4rem;
+            width:0.33rem;
+            height: 0.33rem;
+            border-radius: 50%;
+            border:1px solid #a0a0a0;
+            &.active{
+              width:0.34rem;
+              height: 0.34rem;
+              background-image: url(../images/20170922105446.png);
+              background-repeat: no-repeat;
+              background-size: cover;
+              background-position: center;
+              border:0;
+            }
+          }
+          p{
+            font-size: 0.28rem;
+            color: #666;
+          }
+        }
+        .default-edit{
+          @include Flexbetween;
+          .editor{
+            @include Flexbetween;
+            &:nth-child(1){
+              margin-right: 0.2rem;
+            }
+            .edipic{
+              width: 0.28rem;
+              height: 0.28rem;
+              background-image: url(../images/setup20170925104853.png);
+              background-repeat: no-repeat;
+              background-size: cover;
+              background-position: center;
+              margin-right: 0.1rem;
+              margin-top: 0.03rem;
+            }
+            .delpic{
+              width: 0.28rem;
+              height: 0.28rem;
+              background-image: url(../images/20170922104511.png);
+              background-repeat: no-repeat;
+              background-size: cover;
+              background-position: center;
+              margin-right: 0.1rem;
+              margin-top: 0.03rem;
+            }
+            p{
+              font-size: 0.28rem;
+              color: #666;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+footer{
+  height: 1rem;
+  width: 100%;
+  background: #ff4c61;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 99999;
+  a{
+    display: block;
+    line-height: 1rem;
+    font-size: 0.3rem;
+    color: #fff;
+    text-align: center;
+  }
+}

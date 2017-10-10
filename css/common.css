@@ -1,0 +1,25 @@
+
+button,input,textarea {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+a,button,input,textarea{
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-user-modify:read-write-plaintext-only;
+}
+
+* {
+  margin:0;
+  padding:0 ;
+  -webkit-tap-highlight-color:rgba(255,255,255,0);
+  -webkit-touch-callout: none;
+}
+
+body {
+  font-family: "黑体"
+}
+
+::-webkit-scrollbar {
+  overflow: scroll;
+  overflow-x: hidden;
+}

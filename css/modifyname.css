@@ -1,0 +1,78 @@
+body {
+  background: #fcfcfc;
+}
+
+header {
+  padding: 0.2rem 0.26rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: 1rem;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+  background: #fff;
+  line-height: 0.6rem;
+}
+
+header .preservation {
+  color: #333;
+  font-size: 0.28rem;
+}
+
+header h1 {
+  line-height: 0.6rem;
+  font-size: 0.3rem;
+  font-weight: inherit;
+  color: #333;
+  text-align: center;
+}
+
+header .mynews {
+  width: 0.2rem;
+  height: 0.34rem;
+  background-image: url(../images/596932904110395182.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 0.14rem;
+}
+
+.inputname {
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.inputname input {
+  padding: 0.2rem 0.26rem;
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 1rem;
+  font-size: 0.24rem;
+}
+
+:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #999;
+}
+
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #999;
+}
+
+input:-ms-input-placeholder {
+  color: #999;
+}
+
+input::-webkit-input-placeholder {
+  color: #999;
+}

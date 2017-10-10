@@ -1,0 +1,171 @@
+@import "domo";
+header{
+  //margin-top: 0.6rem;
+  position: fixed;
+  top:0;
+  left:0;
+  width: 100%;
+  background: #fff;
+  //height: 1.5rem;
+  z-index: 99999;
+  padding: 0.2rem 0.26rem;
+  border-bottom: 1px solid #eee;
+  @include Flexcolumn;
+  .Search{
+    @include Flex;
+    margin-bottom: 0.25rem;
+    .edit{
+      //padding: 0 0.2rem 0 0;
+      margin-right: 0.3rem;
+      margin-top: 0.1rem;
+      width:0.2rem;
+      height: 0.34rem;
+    }
+    .search{
+      width:100%;
+      height: 0.5rem;
+      border:1px solid #666;
+      border-radius: 0.7rem;
+      @include Flex;
+      .Magnifier{
+        width:0.28rem;
+        height: 0.28rem;
+        display: block;
+        margin: 0.1rem auto;
+
+      }
+      input{
+        font-size: 0.18rem;
+        width:4rem;
+        border:0;
+        outline: none;
+      }
+    }
+  }
+  .lists{
+    @include Flexnowrap;
+    //width: 6.98rem;
+    white-space: nowrap;
+    overflow-x: auto;
+    li{
+      width: 1.5rem;
+      font-size: 0.24rem;
+      color:#333;
+      padding:0 0.2rem 0 0;
+      &:last-child{
+        padding: 0;
+      }
+      &.active{
+        color: red;
+      }
+    }
+  }
+}
+.columnlist{
+    @include Flexcolumn;
+    margin-top: 1.7rem;
+    margin-bottom: 1rem;
+    a li{
+      border-bottom:1px solid #eee;
+      height:2.08rem;
+      width:100%;
+      .Container{
+        padding: 0.24rem 0.26rem;
+        @include Flex;
+        .pic{
+          width:1.6rem;
+          height: 1.6rem;
+          img{
+            width:1.6rem;
+            height: 1.6rem;
+          }
+        }
+        .details{
+          width: 80%;
+          padding: 0 0.3rem;
+          @include FlexCaround;
+          h2{
+            font-size: 0.3rem;
+            font-weight: inherit;
+            color:#333;
+            margin-bottom: 0.2rem;
+          }
+          h3{
+            font-size: 0.3rem;
+            font-weight: inherit;
+            color:#333;
+            span{
+              font-size: 0.3rem;
+              font-weight: inherit;
+              color:#333;
+            }
+          }
+          .people{
+            @include Flexbetween;
+            h4{
+              font-size: 0.24rem;
+              font-weight: inherit;
+              color:#ff4c61;
+            }
+            span{
+              font-size: 0.24rem;
+              font-weight: inherit;
+              color:#333;
+            }
+          }
+        }
+      }
+    }
+}
+footer{
+  border-top:1px solid #eee;
+  width:100%;
+  height:1rem;
+  position: fixed;
+  bottom:0;
+  left:0;
+  background: #fff;
+  z-index: 99999;
+  ul{
+    @include Flexaround;
+    width:100%;
+    height:1rem;
+    padding: 0.03rem 0;
+    a{
+      &:nth-of-type(1) li .tab{
+        background-image: url("../images/shouyehui@2x.png");
+      }
+      &:nth-of-type(1) li i{
+        color:#333;
+      }
+      &:nth-of-type(2) li .tab{
+        background-image: url("../images/gouwuche@2x.png");
+      }
+      &:nth-of-type(3) li .tab{
+        background-image: url("../images/wode@2x.png");
+      }
+      li{
+        @include Flexcbetween;
+        padding: 0.05rem 0;
+        width:1.5rem;
+        .tab{
+          margin: 0 auto;
+          width:0.5rem;
+          height: 0.5rem;
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+        }
+        i{
+          text-align: center;
+          font-size: 0.24rem;
+          color:#666;
+        }
+      }
+    }
+  }
+}
+
+
+
+

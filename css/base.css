@@ -1,0 +1,77 @@
+
+button,input,textarea {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+/*a,button,input,textarea{*/
+  /*-webkit-tap-highlight-color: rgba(0,0,0,0);*/
+  /*-webkit-user-modify:read-write-plaintext-only;*/
+/*}*/
+
+* {
+  margin:0;
+  padding:0 ;
+  /*-webkit-tap-highlight-color:rgba(255,255,255,0);*/
+  /*-webkit-touch-callout: none;*/
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  margin:0;
+  font-family: "微软雅黑","黑体"
+}
+::-webkit-scrollbar {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+h1,h2,h3,h4,h5,h6,p,ul,li,ol,dl,dd,dt,form,input,textarea,pre,figure{
+  margin:0;
+  padding: 0;
+  list-style:none;
+}
+a{
+  text-decoration: none;
+}
+img{
+  border:0;
+}
+i,u,del,b{
+  font-style: normal;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 42.66667px; } }
+
+@media screen and (min-width: 360px) {
+  html {
+    font-size: 48px; } }
+
+@media screen and (min-width: 375px) {
+  html {
+    font-size: 50px; } }
+
+@media screen and (min-width: 384px) {
+  html {
+    font-size: 51.2px; } }
+
+@media screen and (min-width: 412px) {
+  html {
+    font-size: 54.93333px; } }
+
+@media screen and (min-width: 414px) {
+  html {
+    font-size: 55.2px; } }
+
+@media screen and (min-width: 600px) {
+  html {
+    font-size: 80px; } }
+
+@media screen and (min-width: 750px) {
+  html {
+    font-size: 100px; } }
+
+
