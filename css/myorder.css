@@ -114,7 +114,6 @@ section .payment .paymentRow .payment-row {
 section .payment .paymentRow .payment-row .paymentpic {
   width: 1.74rem;
   height: 1.74rem;
-  background: red;
 }
 
 section .payment .paymentRow .payment-row .payment-box {
