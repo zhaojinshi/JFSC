@@ -11,10 +11,10 @@ $(function () {
                 callback :2
             },
             success : function (data) {
-                console.log(data)
+                // console.log(data)
                 for(let i=0;i<data.result.length;i++) {
                     // console.log(data.result);
-                    $('<li><div class="shopname"><div class="namebox"><div class="arc"></div><div class="shoplogo"></div><div class="name">'+data.result[i].supplier.supplier+'</div></div><div class="edit">编辑</div><div class="complete">完成</div></div></li>').appendTo($('.sectionblock ul'));
+                    $('<li><div class="shopname"><div class="namebox"><div class="arc all"></div><div class="shoplogo"></div><div class="name">'+data.result[i].supplier.supplier+'</div></div><div class="edit">编辑</div><div class="complete">完成</div></div></li>').appendTo($('.sectionblock ul'));
                     var list=data.result[i].list;
                     for(let j=0;j<list.length;j++){
                         // console.log(list)
@@ -42,6 +42,7 @@ $(function () {
         $(this).parent().siblings().find('.storenumnone').css('display','none');
         $(this).prev().css('display','block');
         $(this).parent().siblings().find('.storenum').css('display','inherit');
+        total()
     });
 
     //购物车删除操作
@@ -86,22 +87,61 @@ $(function () {
 
 
     //购物车选择商品的对勾
-    var arc=$('.sectionblock ul li .shopname .namebox .arc');
-    arc.on('click',function () {
-        $(this).toggleClass('active');
-        $(this).parent().parent().siblings().find('.arc').toggleClass('active');
+    // var arc=$('.sectionblock ul li .shopname .namebox .arc');
+    section.on('click','.arc',function () {
+        if($(this).hasClass("all")){
+            $(this).toggleClass('act');
+            if($(this).hasClass("act")){
+                $(this).parent().parent().siblings().find('.arc').addClass('active');
+            }else{
+                $(this).parent().parent().siblings().find('.arc').removeClass('active');
+            }
+
+        }else{
+            $(this).toggleClass('active');
+            $(this).closest(".purchase").toggleClass("active");
+            $(this).closest("li").find(".shopname").find(".arc").addClass('act')
+            if(!($(".purchase ").find(".arc").hasClass("active"))){
+                $(this).closest("li").find(".shopname").find(".arc").removeClass('act')
+            }
+
+        }
+        total()
     });
 
     //全选
     var Qarc=$('.footselect .select .Qarc');
     Qarc.on('click',function () {
-        $('.arc').toggleClass('active');
-        $(this).toggleClass('active');
-        // if($('.arc').hasClass('active')){
-        //
-        // }else{
-        //     $('.arc').addClass('active');
-        // }
+        $(this).toggleClass("active")
+        if($(this).hasClass("active")){
+            $('.arc.all').addClass('act');
+            $(".purchase").find(".arc").addClass("active")
+        }else{
+            $('.arc.all').removeClass('act');
+            $(".purchase").find(".arc").removeClass("active")
+        }
+
+        total()
 
     });
+    
+//    结算操作
+    $(".settlement").on("click",function () {
+
+    })
+
+    function total() {
+        //    总计计算
+        var total=0;
+        var number=0;
+        if($(".purchase").find(".arc").hasClass("active")){
+            $(".arc.active").each(function (i,v) {
+                var shu=$(v).parent().next().find(".nums").html().slice(1)
+                total+=$(v).parent().next().find("i").html()*shu;
+                number+=parseInt(shu);
+            })
+        }
+        $(".calculation").html(total)
+        $(".settlement").find("i").html(number)
+    }
 });
