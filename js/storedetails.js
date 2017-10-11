@@ -73,12 +73,13 @@ $(function () {
                     callback :5
                 },
                 success : function (data) {
+                    $("sucess").remove();
                     $('<div class="success">'+data.msg+'</div>').appendTo('body');
                     setTimeout(function () {
-                        $('.success').addClass('active')
+                        $('.success').show().addClass('active')
                     },50);
                     setTimeout(function () {
-                        $('.success').removeClass('active')
+                        $('.success').css("opacity","0").hide().removeClass('active')
                     },1000);
                 }
             });
