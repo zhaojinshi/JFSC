@@ -48,7 +48,6 @@ $(function () {
     //购物车删除操作
     section.on("click",".delete",function () {
         var id=$(this).closest(".purchase").attr("data_id")
-        console.log(id)
         $.ajax({
             type:"get",
             url : "https://api.leduika.com/v110/cart/delete.html?id="+id,
@@ -59,7 +58,7 @@ $(function () {
                 callback :2
             },
             success:function (data) {
-                section.empty()
+                section.empty();
                 render()
             }
         })
@@ -70,19 +69,49 @@ $(function () {
     section.on('click',".add",function () {
         var num=$(this).prev().html();
         num++;
-        $(this).prev().html(num)
-        $(this).closest(".storenumnone").prev().find(".nums").html("X"+num)
+        $(this).prev().html(num);
+        $(this).closest(".storenumnone").prev().find(".nums").html("X"+num);
+        var id=$(this).closest(".purchase").attr("data_id");
+        var num=$(this).prev().html();
+        $.ajax({
+            type:"get",
+            url : "https://api.leduika.com/v110/cart/update.html?id="+id+"&buynum="+num,
+            dataType : 'JSONP',
+            jsonpCallback : 'callback2',
+            data : {
+                isJSONP : 1,
+                callback :2
+            },
+            success:function (data) {
+                console.log(data)
+            }
+        })
     })
     section.on('click',".subtract",function () {
         var num=$(this).next().html();
         num--;
         if(num<0){
-            $(this).next().html(0)
+            $(this).next().html(0);
             $(this).closest(".storenumnone").prev().find(".nums").html("X0")
         }else{
-            $(this).next().html(num)
+            $(this).next().html(num);
             $(this).closest(".storenumnone").prev().find(".nums").html("X"+num)
         }
+        var id=$(this).closest(".purchase").attr("data_id");
+        var num=$(this).next().html();
+        $.ajax({
+            type:"get",
+            url : "https://api.leduika.com/v110/cart/update.html?id="+id+"&buynum="+num,
+            dataType : 'JSONP',
+            jsonpCallback : 'callback2',
+            data : {
+                isJSONP : 1,
+                callback :2
+            },
+            success:function (data) {
+                console.log(data)
+            }
+        })
     })
 
 
@@ -136,7 +165,7 @@ $(function () {
         var number=0;
         if($(".purchase").find(".arc").hasClass("active")){
             $(".arc.active").each(function (i,v) {
-                var shu=$(v).parent().next().find(".nums").html().slice(1)
+                var shu=$(v).parent().next().find(".nums").html().slice(1);
                 total+=$(v).parent().next().find("i").html()*shu;
                 number+=parseInt(shu);
             })
