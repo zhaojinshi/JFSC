@@ -65,7 +65,7 @@ $(function () {
         }else{
             $.ajax({
                 type:"get",
-                url : "https://api.leduika.com/v110/cart/add.html?token="+data.token+"&goodid="+data.result.goodid+"&buynum=2",
+                url : "https://api.leduika.com/v110/cart/add.html?token="+data.token+"&goodid="+data.result.goodid+"&buynum=1",
                 dataType : 'JSONP',
                 jsonpCallback : 'callback5',
                 data : {
