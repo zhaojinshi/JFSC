@@ -104,18 +104,16 @@ https://api.leduika.com/v110/user/userinfo.html?token=6440cf5e5d3c2c60d50a57b1d3
 获取地区
 
 
-/v110/index/region.html
+https://api.leduika.com/v110/index/region.html
 
 {"parentid":"0","agent":"android","token":"6440cf5e5d3c2c60d50a57b1d384647d","request_time":"1506737908","sign":"adaa6747051fb52ec1e95afae674f4ca"}
 
 
 地址列表
 
-/v110/user/address.html
+https://api.leduika.com/v110/user/address.html
 
 修改地址
-
-
 /v110/user/upaddress.html
 
 
