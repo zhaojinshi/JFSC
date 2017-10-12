@@ -1,0 +1,160 @@
+body {
+  background: #fcfcfc;
+}
+
+header {
+  padding: 0.2rem 0.26rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: 1rem;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+  background: #fff;
+  line-height: 0.6rem;
+  border-bottom: 1px solid #eee;
+}
+
+header .preservation {
+  color: #333;
+  font-size: 0.28rem;
+}
+
+header h1 {
+  line-height: 0.6rem;
+  font-size: 0.3rem;
+  font-weight: inherit;
+  color: #333;
+  text-align: center;
+}
+
+header .mynews {
+  width: 0.2rem;
+  height: 0.34rem;
+  background-image: url(../images/596932904110395182.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 0.14rem;
+}
+
+.container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background: #fff;
+  margin-top: 1rem;
+}
+
+.container li {
+  border-bottom: 1px solid #eee;
+}
+
+.container li .libox {
+  padding: 0.2rem 0.26rem;
+}
+
+.container li .libox p {
+  font-size: 0.24rem;
+  color: #000;
+}
+
+.container li .libox p input {
+  margin-left: 0.2rem;
+  font-size: 0.24rem;
+  color: #666;
+  border: none;
+  outline: none;
+  height: 0.5rem;
+  width: 80%;
+}
+
+.container li:nth-child(3) .libox {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.container li:nth-child(3) .libox .addbox {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.container li:nth-child(3) .libox .addbox .add {
+  font-size: 0.24rem;
+  color: #666;
+  margin-right: 0.2rem;
+}
+
+.container li:nth-child(3) .libox .addbox .addpic {
+  height: 0.25rem;
+  width: 0.15rem;
+  background-image: url(../images/arrow.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 0.04rem;
+}
+
+.container li:nth-child(4) #area {
+  font-size: 0.24rem;
+  color: #666;
+  height: 1.5rem;
+  width: 100%;
+  outline: none;
+  border: none;
+}
+
+.footer {
+  margin-top: 0.2rem;
+  padding: 0.25rem 0.26rem;
+  background: #fff;
+}
+
+.footer p {
+  font-size: 0.24rem;
+  color: #fe8f73;
+}
+
+.footernone {
+  margin-top: 0.2rem;
+  padding: 0.25rem 0.26rem;
+  background: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.footernone p {
+  font-size: 0.24rem;
+  color: #666;
+}

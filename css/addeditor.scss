@@ -1,0 +1,112 @@
+@import "domo";
+body{
+  background: #fcfcfc;
+}
+header{
+  padding: 0.2rem 0.26rem;
+  @include Flexbetween;
+  height: 1rem;
+  width: 100%;
+  position: fixed;
+  top:0;
+  left: 0;
+  z-index: 99999;
+  background: #fff;
+  line-height: 0.6rem;
+  border-bottom: 1px solid #eee;
+  .preservation{
+    color: #333;
+    font-size: 0.28rem;
+  }
+  h1{
+    line-height: 0.6rem;
+    font-size: 0.3rem;
+    font-weight: inherit;
+    color: #333;
+    text-align: center;
+  }
+  .mynews{
+    width: 0.2rem;
+    height: 0.34rem;
+    background-image: url(../images/596932904110395182.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 0.14rem;
+  }
+}
+.container{
+  @include Flexcolumn;
+  background: #fff;
+  margin-top: 1rem;
+  li{
+    border-bottom: 1px solid #eee;
+    .libox{
+      padding: 0.2rem 0.26rem;
+      p{
+        font-size: 0.24rem;
+        color: #000;
+        input{
+          margin-left: 0.2rem;
+          font-size: 0.24rem;
+          color: #666;
+          border: none;
+          outline: none;
+          height: 0.5rem;
+          width: 80%;
+        }
+      }
+    }
+    &:nth-child(3){
+      .libox{
+        @include Flexbetween;
+        .addbox{
+          @include Flexbetween;
+          .add{
+            font-size: 0.24rem;
+            color: #666;
+            margin-right: 0.2rem;
+          }
+          .addpic{
+            height: 0.25rem;
+            width: 0.15rem;
+            background-image: url(../images/arrow.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            margin-top: 0.04rem;
+          }
+        }
+      }
+    }
+    &:nth-child(4){
+      #area{
+        font-size: 0.24rem;
+        color: #666;
+        height: 1.5rem;
+        width:100%;
+        outline: none;
+        border: none;
+      }
+    }
+  }
+}
+.footer{
+  margin-top: 0.2rem;
+  padding: 0.25rem 0.26rem;
+  background: #fff;
+  p{
+    font-size: 0.24rem;
+    color: #fe8f73;
+  }
+}
+.footernone{
+  margin-top: 0.2rem;
+  padding: 0.25rem 0.26rem;
+  background: #fff;
+  @include Flexbetween;
+  p{
+    font-size: 0.24rem;
+    color: #666;
+  }
+}

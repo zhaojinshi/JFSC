@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c095817c-b448-4672-9e82-d29baecbc787" name="Default" comment="">
+    <list default="true" id="20520155-f9f8-4f46-bcf1-c63bace5de8e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/addeditor.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/addeditor.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/address.html" afterPath="$PROJECT_DIR$/html/address.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/editor.html" afterPath="$PROJECT_DIR$/html/editor.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/address.js" afterPath="$PROJECT_DIR$/js/address.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,23 +18,95 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="address.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/address.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="29" column="10" lean-forward="true" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+            <state relative-caret-position="425">
+              <caret line="23" column="44" lean-forward="false" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="address.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/address.js">
+      <file leaf-file-name="address.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/address.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+            <state relative-caret-position="196">
+              <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="editor.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/editor.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-405">
+              <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="addeditor.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/addeditor.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="383">
+              <caret line="52" column="27" lean-forward="true" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="27" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#header#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#3;n#ul#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="addeditor.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/addeditor.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="88" column="21" lean-forward="false" selection-start-line="88" selection-start-column="21" selection-end-line="88" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="addeditor.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/addeditor.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="159" column="1" lean-forward="true" selection-start-line="159" selection-start-column="1" selection-end-line="159" selection-end-column="1" />
+              <folding>
+                <marker date="1507819863648" expanded="true" signature="2505:2578" ph="{...}" />
+                <marker date="1507819863648" expanded="true" signature="2590:2633" ph="{...}" />
+                <marker date="1507819863648" expanded="true" signature="2647:2941" ph="{...}" />
+                <marker date="1507819863648" expanded="true" signature="2994:2997" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="addeditor.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/addeditor.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="editor.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/editor.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-41">
+              <caret line="22" column="51" lean-forward="false" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#3;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#0;n#li#3;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -37,175 +114,10 @@
       <file leaf-file-name="qqq.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/qqq.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="96" column="2" lean-forward="true" selection-start-line="96" selection-start-column="2" selection-end-line="96" selection-end-column="2" />
+            <state relative-caret-position="285">
+              <caret line="116" column="25" lean-forward="true" selection-start-line="116" selection-start-column="25" selection-end-line="116" selection-end-column="25" />
               <folding>
-                <marker date="1507801420768" expanded="true" signature="3077:3191" ph="/*...*/" />
-                <marker date="1507801420768" expanded="true" signature="3647:6169" ph="{...}" />
-                <marker date="1507801420768" expanded="true" signature="3704:6118" ph="[...]" />
-                <marker date="1507801420768" expanded="true" signature="3710:4910" ph="{...}" />
-                <marker date="1507801420768" expanded="true" signature="3728:4670" ph="[...]" />
-                <marker date="1507801420768" expanded="true" signature="3742:4194" ph="{&quot;id&quot;: &quot;1&quot;...}" />
-                <marker date="1507801420768" expanded="true" signature="4208:4660" ph="{&quot;id&quot;: &quot;1&quot;...}" />
-                <marker date="1507801420768" expanded="true" signature="4692:4904" ph="{&quot;id&quot;: &quot;1005&quot;...}" />
-                <marker date="1507801420768" expanded="true" signature="4916:6116" ph="{...}" />
-                <marker date="1507801420768" expanded="true" signature="4934:5876" ph="[...]" />
-                <marker date="1507801420768" expanded="true" signature="4948:5400" ph="{&quot;id&quot;: &quot;1&quot;...}" />
-                <marker date="1507801420768" expanded="true" signature="5414:5866" ph="{&quot;id&quot;: &quot;1&quot;...}" />
-                <marker date="1507801420768" expanded="true" signature="5898:6110" ph="{&quot;id&quot;: &quot;1005&quot;...}" />
-                <marker date="1507801420768" expanded="true" signature="6483:8592" ph="{...}" />
-                <marker date="1507801420768" expanded="true" signature="6538:8541" ph="{...}" />
-                <marker date="1507801420768" expanded="true" signature="6552:6736" ph="[...]" />
-                <marker date="1507801420768" expanded="true" signature="6562:6736" ph="{...}" />
-                <marker date="1507801420768" expanded="true" signature="6588:6736" ph="{&quot;name&quot;: &quot;平台签约供应商&quot;...}" />
-                <marker date="1507801420768" expanded="true" signature="6830:7284" ph="[...]" />
-                <marker date="1507801420768" expanded="true" signature="6840:7278" ph="{&quot;id&quot;: &quot;14&quot;...}" />
-                <marker date="1507801420768" expanded="true" signature="7292:8477" ph="{...}" />
-                <marker date="1507801420768" expanded="true" signature="7314:7532" ph="{...}" />
-                <marker date="1507801420768" expanded="true" signature="7551:8471" ph="[...]" />
-                <marker date="1507801420768" expanded="true" signature="7561:8011" ph="{&quot;id&quot;: &quot;34&quot;...}" />
-                <marker date="1507801420768" expanded="true" signature="8021:8465" ph="{&quot;id&quot;: &quot;35&quot;...}" />
-                <marker date="1507801420768" expanded="true" signature="8762:44655" ph="{...}" />
-                <marker date="1507801420768" expanded="true" signature="8819:9699" ph="{...}" />
-                <marker date="1507801420768" expanded="true" signature="8833:9634" ph="[...]" />
-                <marker date="1507801420768" expanded="true" signature="8843:9628" ph="{...}" />
-                <marker date="1507801420768" expanded="true" signature="8866:9431" ph="[...]" />
-                <marker date="1507801420768" expanded="true" signature="8884:9417" ph="{&quot;name&quot;: &quot;植护居家原木抽纸6包*2&quot;...}" />
-                <marker date="1507801420768" expanded="true" signature="9457:9618" ph="{&quot;name&quot;: &quot;平台签约供应商&quot;...}" />
-                <marker date="1507801420768" expanded="true" signature="9985:10195" ph="{...}" />
-                <marker date="1507801420768" expanded="true" signature="10048:10140" ph="{...}" />
-                <marker date="1507801420768" expanded="true" signature="10471:12700" ph="{...}" />
-                <marker date="1507801420768" expanded="true" signature="10540:12622" ph="[...]" />
-                <marker date="1507801420768" expanded="true" signature="10550:11578" ph="{&quot;orderno&quot;: &quot;817060948555010&quot;...}" />
-                <marker date="1507801420768" expanded="true" signature="10866:11568" ph="[...]" />
-                <marker date="1507801420768" expanded="true" signature="10884:11554" ph="{&quot;supplier_id&quot;: &quot;1097&quot;...}" />
-                <marker date="1507801420768" expanded="true" signature="11083:11536" ph="[...]" />
-                <marker date="1507801420768" expanded="true" signature="11109:11514" ph="{&quot;goodid&quot;: &quot;598&quot;...}" />
-                <marker date="1507801420768" expanded="true" signature="11588:12616" ph="{&quot;orderno&quot;: &quot;817060948555010&quot;...}" />
-                <marker date="1507801420768" expanded="true" signature="11904:12606" ph="[...]" />
-                <marker date="1507801420768" expanded="true" signature="11922:12592" ph="{&quot;supplier_id&quot;: &quot;1097&quot;...}" />
-                <marker date="1507801420768" expanded="true" signature="12121:12574" ph="[...]" />
-                <marker date="1507801420768" expanded="true" signature="12147:12552" ph="{&quot;goodid&quot;: &quot;598&quot;...}" />
-                <marker date="1507801420768" expanded="true" signature="12900:13000" ph="{...}" />
-                <marker date="1507801420768" expanded="true" signature="13068:14310" ph="{...}" />
-                <marker date="1507801420768" expanded="true" signature="13125:14235" ph="[...]" />
-                <marker date="1507801420768" expanded="true" signature="13131:14233" ph="{&quot;id&quot;: &quot;1001&quot;...}" />
-                <marker date="1507801420768" expanded="true" signature="13475:14227" ph="[...]" />
-                <marker date="1507801420768" expanded="true" signature="13489:13845" ph="{&quot;name&quot;: &quot;德香居鸭脖礼盒&quot;...}" />
-                <marker date="1507801420768" expanded="true" signature="13859:14217" ph="{&quot;name&quot;: &quot;德香居火腿酱鸭&quot;...}" />
-                <marker date="1507801420768" expanded="true" signature="14390:15320" ph="{...}" />
-                <marker date="1507801420768" expanded="true" signature="14459:15261" ph="[...]" />
-                <marker date="1507801420768" expanded="true" signature="14469:15255" ph="{...}" />
-                <marker date="1507801420768" expanded="true" signature="14495:14792" ph="{&quot;id&quot;: &quot;1001&quot;...}" />
-                <marker date="1507801420768" expanded="true" signature="14815:15245" ph="[...]" />
-                <marker date="1507801420768" expanded="true" signature="14833:15231" ph="{&quot;name&quot;: &quot;芬娜丝女士连体丝袜2条装&quot;...}" />
-                <marker date="1507801420768" expanded="true" signature="15327:15366" ph="/** 我的收藏 ...*/" />
-                <marker date="1507801420768" expanded="true" signature="15450:17174" ph="{...}" />
-                <marker date="1507801420768" expanded="true" signature="15517:17096" ph="[...]" />
-                <marker date="1507801420768" expanded="true" signature="15527:17090" ph="{&quot;id&quot;: &quot;1001&quot;...}" />
-                <marker date="1507801420768" expanded="true" signature="15833:17080" ph="[...]" />
-                <marker date="1507801420768" expanded="true" signature="15851:16243" ph="{&quot;name&quot;: &quot;德香居鸭脖礼盒&quot;...}" />
-                <marker date="1507801420768" expanded="true" signature="16261:16655" ph="{&quot;name&quot;: &quot;德香居火腿酱鸭&quot;...}" />
-                <marker date="1507801420768" expanded="true" signature="16673:17066" ph="{&quot;name&quot;: &quot;长白山西洋参&quot;...}" />
-                <marker date="1507801420768" expanded="true" signature="17246:17336" ph="{...}" />
-                <marker date="1507801420768" expanded="true" signature="17414:17504" ph="{...}" />
-                <marker date="1507801420768" expanded="true" signature="17581:19080" ph="{...}" />
-                <marker date="1507801420768" expanded="true" signature="17648:19002" ph="[...]" />
-                <marker date="1507801420768" expanded="true" signature="17658:18322" ph="{&quot;name&quot;: &quot;百利君威进口刀头五层手动剃须刀&quot;...}" />
-                <marker date="1507801420768" expanded="true" signature="18332:18996" ph="{&quot;name&quot;: &quot;百利君威进口刀头五层手动剃须刀&quot;...}" />
-                <marker date="1507801420768" expanded="true" signature="19152:19242" ph="{...}" />
-                <marker date="1507801420768" expanded="true" signature="19320:19410" ph="{...}" />
-                <marker date="1507801420768" expanded="true" signature="19505:20513" ph="{...}" />
-                <marker date="1507801420768" expanded="true" signature="19574:20418" ph="[...]" />
-                <marker date="1507801420768" expanded="true" signature="19584:19997" ph="{&quot;name&quot;: &quot;富安娜夏季夏凉蚕丝纤维混合被芯润蚕丝夏被&quot;...}" />
-                <marker date="1507801420768" expanded="true" signature="20007:20412" ph="{&quot;name&quot;: &quot;KUTTO日系素雅纯棉条纹毛巾&quot;...}" />
-                <marker date="1507801420768" expanded="true" signature="20664:22153" ph="{...}" />
-                <marker date="1507801420768" expanded="true" signature="20733:22075" ph="[...]" />
-                <marker date="1507801420768" expanded="true" signature="20743:21405" ph="{&quot;name&quot;: &quot;百利君威进口刀头五层手动剃须刀&quot;...}" />
-                <marker date="1507801420768" expanded="true" signature="21415:22069" ph="{&quot;name&quot;: &quot;百草味-抱抱果235g&quot;...}" />
-                <marker date="1507801420768" expanded="true" signature="22220:23006" ph="{...}" />
-                <marker date="1507801420768" expanded="true" signature="22289:22947" ph="[...]" />
-                <marker date="1507801420768" expanded="true" signature="22299:22451" ph="{&quot;id&quot;: &quot;1&quot;...}" />
-                <marker date="1507801420768" expanded="true" signature="22461:22613" ph="{&quot;id&quot;: &quot;2&quot;...}" />
-                <marker date="1507801420768" expanded="true" signature="22623:22775" ph="{&quot;id&quot;: &quot;3&quot;...}" />
-                <marker date="1507801420768" expanded="true" signature="22785:22941" ph="{&quot;id&quot;: &quot;4&quot;...}" />
-                <marker date="1507801420768" expanded="true" signature="23290:25036" ph="{...}" />
-                <marker date="1507801420768" expanded="true" signature="23342:24991" ph="{...}" />
-                <marker date="1507801420768" expanded="true" signature="24016:24989" ph="[...]" />
-                <marker date="1507801420768" expanded="true" signature="24026:24256" ph="{&quot;name&quot;: &quot;100元促销卡A套餐&quot;...}" />
-                <marker date="1507801420768" expanded="true" signature="24266:24499" ph="{&quot;name&quot;: &quot;100元促销卡B套餐&quot;...}" />
-                <marker date="1507801420768" expanded="true" signature="24509:24742" ph="{&quot;name&quot;: &quot;100元促销卡C套餐&quot;...}" />
-                <marker date="1507801420768" expanded="true" signature="24752:24983" ph="{&quot;name&quot;: &quot;100元促销卡D套餐&quot;...}" />
-                <marker date="1507801420768" expanded="true" signature="25114:26270" ph="{...}" />
-                <marker date="1507801420768" expanded="true" signature="25183:26189" ph="{...}" />
-                <marker date="1507801420768" expanded="true" signature="26069:26157" ph="[...]" />
-                <marker date="1507801420768" expanded="true" signature="26452:28681" ph="{...}" />
-                <marker date="1507801420768" expanded="true" signature="26521:28603" ph="[...]" />
-                <marker date="1507801420768" expanded="true" signature="26531:27559" ph="{&quot;orderno&quot;: &quot;817060948555010&quot;...}" />
-                <marker date="1507801420768" expanded="true" signature="26847:27549" ph="[...]" />
-                <marker date="1507801420768" expanded="true" signature="26865:27535" ph="{&quot;supplier_id&quot;: &quot;1097&quot;...}" />
-                <marker date="1507801420768" expanded="true" signature="27064:27517" ph="[...]" />
-                <marker date="1507801420768" expanded="true" signature="27090:27495" ph="{&quot;goodid&quot;: &quot;598&quot;...}" />
-                <marker date="1507801420768" expanded="true" signature="27569:28597" ph="{&quot;orderno&quot;: &quot;817060948555010&quot;...}" />
-                <marker date="1507801420768" expanded="true" signature="27885:28587" ph="[...]" />
-                <marker date="1507801420768" expanded="true" signature="27903:28573" ph="{&quot;supplier_id&quot;: &quot;1097&quot;...}" />
-                <marker date="1507801420768" expanded="true" signature="28102:28555" ph="[...]" />
-                <marker date="1507801420768" expanded="true" signature="28128:28533" ph="{&quot;goodid&quot;: &quot;598&quot;...}" />
-                <marker date="1507801420768" expanded="true" signature="28888:31264" ph="{...}" />
-                <marker date="1507801420768" expanded="true" signature="28957:31205" ph="{...}" />
-                <marker date="1507801420768" expanded="true" signature="29971:30716" ph="[...]" />
-                <marker date="1507801420768" expanded="true" signature="29985:30338" ph="{&quot;goodid&quot;: &quot;611&quot;...}" />
-                <marker date="1507801420768" expanded="true" signature="30352:30706" ph="{&quot;goodid&quot;: &quot;610&quot;...}" />
-                <marker date="1507801420768" expanded="true" signature="31363:32346" ph="{...}" />
-                <marker date="1507801420768" expanded="true" signature="31427:32287" ph="[...]" />
-                <marker date="1507801420768" expanded="true" signature="31437:31847" ph="{&quot;id&quot;: &quot;6&quot;...}" />
-                <marker date="1507801420768" expanded="true" signature="31857:32281" ph="{&quot;id&quot;: &quot;4&quot;...}" />
-                <marker date="1507801420768" expanded="true" signature="32419:32523" ph="{...}" />
-                <marker date="1507801420768" expanded="true" signature="32601:32705" ph="{...}" />
-                <marker date="1507801420768" expanded="true" signature="32830:39587" ph="{...}" />
-                <marker date="1507801420768" expanded="true" signature="32897:39528" ph="{...}" />
-                <marker date="1507801420768" expanded="true" signature="32918:34154" ph="[...]" />
-                <marker date="1507801420768" expanded="true" signature="32932:33226" ph="{&quot;name&quot;: &quot;百利君威进口刀头五层手动剃须刀&quot;...}" />
-                <marker date="1507801420768" expanded="true" signature="33240:33534" ph="{&quot;name&quot;: &quot;百利君威进口刀头五层手动剃须刀&quot;...}" />
-                <marker date="1507801420768" expanded="true" signature="33548:33839" ph="{&quot;name&quot;: &quot;端午节粽子礼盒米旗沁香粽&quot;...}" />
-                <marker date="1507801420768" expanded="true" signature="33853:34144" ph="{&quot;name&quot;: &quot;端午节粽子礼盒米旗沁香粽&quot;...}" />
-                <marker date="1507801420768" expanded="true" signature="34180:36024" ph="[...]" />
-                <marker date="1507801420768" expanded="true" signature="34194:34488" ph="{&quot;name&quot;: &quot;韩版简约潮流时尚情侣手表一对2只&quot;...}" />
-                <marker date="1507801420768" expanded="true" signature="34502:34792" ph="{&quot;name&quot;: &quot;小麦秆简约水杯茶杯 2个&quot;...}" />
-                <marker date="1507801420768" expanded="true" signature="34806:35101" ph="{&quot;name&quot;: &quot;好太太正品特价机手洗衣液3kg*2&quot;...}" />
-                <marker date="1507801420768" expanded="true" signature="35115:35403" ph="{&quot;name&quot;: &quot;夏天浴室防滑拖鞋2双&quot;...}" />
-                <marker date="1507801420768" expanded="true" signature="35417:35708" ph="{&quot;name&quot;: &quot;家用加厚防滑卡通塑料凳2个&quot;...}" />
-                <marker date="1507801420768" expanded="true" signature="35722:36014" ph="{&quot;name&quot;: &quot;家用塑料内衣抽屉式收纳盒2个&quot;...}" />
-                <marker date="1507801420768" expanded="true" signature="36046:37728" ph="[...]" />
-                <marker date="1507801420768" expanded="true" signature="36060:36464" ph="{&quot;id&quot;: &quot;4&quot;...}" />
-                <marker date="1507801420768" expanded="true" signature="36478:36882" ph="{&quot;id&quot;: &quot;3&quot;...}" />
-                <marker date="1507801420768" expanded="true" signature="36896:37300" ph="{&quot;id&quot;: &quot;2&quot;...}" />
-                <marker date="1507801420768" expanded="true" signature="37314:37718" ph="{&quot;id&quot;: &quot;1&quot;...}" />
-                <marker date="1507801420768" expanded="true" signature="37755:38942" ph="[...]" />
-                <marker date="1507801420768" expanded="true" signature="37769:38147" ph="{&quot;id&quot;: &quot;1003&quot;...}" />
-                <marker date="1507801420768" expanded="true" signature="38161:38540" ph="{&quot;id&quot;: &quot;1002&quot;...}" />
-                <marker date="1507801420768" expanded="true" signature="38554:38932" ph="{&quot;id&quot;: &quot;1001&quot;...}" />
-                <marker date="1507801420768" expanded="true" signature="38965:39399" ph="[...]" />
-                <marker date="1507801420768" expanded="true" signature="38979:39183" ph="{&quot;id&quot;: &quot;3&quot;...}" />
-                <marker date="1507801420768" expanded="true" signature="39197:39389" ph="{&quot;id&quot;: &quot;4&quot;...}" />
-                <marker date="1507801420768" expanded="true" signature="39651:44383" ph="{...}" />
-                <marker date="1507801420768" expanded="true" signature="39703:44332" ph="{...}" />
-                <marker date="1507801420768" expanded="true" signature="39943:42455" ph="[...]" />
-                <marker date="1507801420768" expanded="true" signature="39953:40778" ph="{&quot;name&quot;: &quot;卡通办公家居坐垫2个&quot;...}" />
-                <marker date="1507801420768" expanded="true" signature="40262:40768" ph="[...]" />
-                <marker date="1507801420768" expanded="true" signature="40788:41613" ph="{&quot;name&quot;: &quot;卡通办公家居坐垫2个&quot;...}" />
-                <marker date="1507801420768" expanded="true" signature="41097:41603" ph="[...]" />
-                <marker date="1507801420768" expanded="true" signature="41623:42449" ph="{&quot;name&quot;: &quot;天堂三折黑胶防晒晴雨伞&quot;...}" />
-                <marker date="1507801420768" expanded="true" signature="41933:42439" ph="[...]" />
-                <marker date="1507801420768" expanded="true" signature="42475:44330" ph="[...]" />
-                <marker date="1507801420768" expanded="true" signature="42485:42783" ph="{&quot;name&quot;: &quot;天堂三折黑胶防晒晴雨伞&quot;...}" />
-                <marker date="1507801420768" expanded="true" signature="42793:43094" ph="{&quot;name&quot;: &quot;双枪男式紧身T恤运动纯棉短袖&quot;...}" />
-                <marker date="1507801420768" expanded="true" signature="43104:43406" ph="{&quot;name&quot;: &quot;双枪男式紧身T恤运动纯棉短袖&quot;...}" />
-                <marker date="1507801420768" expanded="true" signature="43416:43711" ph="{&quot;name&quot;: &quot;迷你usb静音电风扇&quot;...}" />
-                <marker date="1507801420768" expanded="true" signature="43721:44016" ph="{&quot;name&quot;: &quot;迷你usb静音电风扇&quot;...}" />
-                <marker date="1507801420768" expanded="true" signature="44026:44324" ph="{&quot;name&quot;: &quot;春夏季纯棉女士薄款短袜4双&quot;...}" />
-                <marker date="1507801420768" expanded="true" signature="44444:44534" ph="{...}" />
-                <marker date="1507801420768" expanded="true" signature="44548:44655" ph="{...}" />
+                <element signature="n#!!doc" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -219,10 +131,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/js/storedetails.js" />
-        <option value="$PROJECT_DIR$/html/shoppingcart.html" />
+        <option value="$PROJECT_DIR$/css/shoppingcart.scss" />
         <option value="$PROJECT_DIR$/css/shoppingcart.css" />
+        <option value="$PROJECT_DIR$/html/search.html" />
         <option value="$PROJECT_DIR$/js/shoppingcart.js" />
+        <option value="$PROJECT_DIR$/js/search.js" />
+        <option value="$PROJECT_DIR$/html/editor.html" />
+        <option value="$PROJECT_DIR$/html/address.html" />
+        <option value="$PROJECT_DIR$/css/addeditor.scss" />
+        <option value="$PROJECT_DIR$/html/addeditor.html" />
+        <option value="$PROJECT_DIR$/css/base.css" />
+        <option value="$PROJECT_DIR$/js/address.js" />
       </list>
     </option>
   </component>
@@ -240,10 +159,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -260,26 +179,25 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gitjifen" />
+              <option name="myItemId" value="jfscgit" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gitjifen" />
+              <option name="myItemId" value="jfscgit" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gitjifen" />
+              <option name="myItemId" value="jfscgit" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gitjifen" />
+              <option name="myItemId" value="jfscgit" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -287,15 +205,48 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jfscgit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jfscgit" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jfscgit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jfscgit" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="addeditor.scss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NestingTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
   </component>
@@ -311,41 +262,99 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c095817c-b448-4672-9e82-d29baecbc787" name="Default" comment="" />
-      <created>1507685313675</created>
+      <changelist id="20520155-f9f8-4f46-bcf1-c63bace5de8e" name="Default" comment="" />
+      <created>1507723675913</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1507685313675</updated>
-      <workItem from="1507685315047" duration="16062000" />
-      <workItem from="1507716059565" duration="254000" />
-      <workItem from="1507771905072" duration="3375000" />
-      <workItem from="1507800453597" duration="1585000" />
+      <updated>1507723675913</updated>
+      <workItem from="1507723678167" duration="4531000" />
+      <workItem from="1507814371684" duration="5731000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21276000" />
+    <option name="totallyTimeSpent" value="10262000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21588486" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15504292" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.040086675" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28992072" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -356,6 +365,25 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28992072" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15504292" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -364,24 +392,17 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="1" />
-    </breakpoint-manager>
+    <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/index.js">
+    <entry file="file://$PROJECT_DIR$/js/shoppingcart.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1507727732030" expanded="true" signature="1114:1157" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -395,466 +416,216 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/qqq.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3180">
-          <caret line="264" column="15" lean-forward="true" selection-start-line="264" selection-start-column="15" selection-end-line="264" selection-end-column="15" />
+        <state relative-caret-position="12810">
+          <caret line="854" column="4" lean-forward="true" selection-start-line="854" selection-start-column="4" selection-end-line="854" selection-end-column="26" />
           <folding>
-            <marker date="1507801420768" expanded="true" signature="3077:3191" ph="/*...*/" />
-            <marker date="1507801420768" expanded="true" signature="3647:6169" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="3704:6118" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="3710:4910" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="3728:4670" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="3742:4194" ph="{&quot;id&quot;: &quot;1&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="4208:4660" ph="{&quot;id&quot;: &quot;1&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="4692:4904" ph="{&quot;id&quot;: &quot;1005&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="4916:6116" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="4934:5876" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="4948:5400" ph="{&quot;id&quot;: &quot;1&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="5414:5866" ph="{&quot;id&quot;: &quot;1&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="5898:6110" ph="{&quot;id&quot;: &quot;1005&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="6483:8592" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="6538:8541" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="6552:6736" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="6562:6736" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="6588:6736" ph="{&quot;name&quot;: &quot;平台签约供应商&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="6830:7284" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="6840:7278" ph="{&quot;id&quot;: &quot;14&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="7292:8477" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="7314:7532" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="7551:8471" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="7561:8011" ph="{&quot;id&quot;: &quot;34&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="8021:8465" ph="{&quot;id&quot;: &quot;35&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="8762:44655" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="8819:9699" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="8833:9634" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="8843:9628" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="8866:9431" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="8884:9417" ph="{&quot;name&quot;: &quot;植护居家原木抽纸6包*2&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="9457:9618" ph="{&quot;name&quot;: &quot;平台签约供应商&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="9985:10195" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="10048:10140" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="10471:12700" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="10540:12622" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="10550:11578" ph="{&quot;orderno&quot;: &quot;817060948555010&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="10866:11568" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="10884:11554" ph="{&quot;supplier_id&quot;: &quot;1097&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="11083:11536" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="11109:11514" ph="{&quot;goodid&quot;: &quot;598&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="11588:12616" ph="{&quot;orderno&quot;: &quot;817060948555010&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="11904:12606" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="11922:12592" ph="{&quot;supplier_id&quot;: &quot;1097&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="12121:12574" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="12147:12552" ph="{&quot;goodid&quot;: &quot;598&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="12900:13000" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="13068:14310" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="13125:14235" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="13131:14233" ph="{&quot;id&quot;: &quot;1001&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="13475:14227" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="13489:13845" ph="{&quot;name&quot;: &quot;德香居鸭脖礼盒&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="13859:14217" ph="{&quot;name&quot;: &quot;德香居火腿酱鸭&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="14390:15320" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="14459:15261" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="14469:15255" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="14495:14792" ph="{&quot;id&quot;: &quot;1001&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="14815:15245" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="14833:15231" ph="{&quot;name&quot;: &quot;芬娜丝女士连体丝袜2条装&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="15327:15366" ph="/** 我的收藏 ...*/" />
-            <marker date="1507801420768" expanded="true" signature="15450:17174" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="15517:17096" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="15527:17090" ph="{&quot;id&quot;: &quot;1001&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="15833:17080" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="15851:16243" ph="{&quot;name&quot;: &quot;德香居鸭脖礼盒&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="16261:16655" ph="{&quot;name&quot;: &quot;德香居火腿酱鸭&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="16673:17066" ph="{&quot;name&quot;: &quot;长白山西洋参&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="17246:17336" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="17414:17504" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="17581:19080" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="17648:19002" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="17658:18322" ph="{&quot;name&quot;: &quot;百利君威进口刀头五层手动剃须刀&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="18332:18996" ph="{&quot;name&quot;: &quot;百利君威进口刀头五层手动剃须刀&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="19152:19242" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="19320:19410" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="19505:20513" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="19574:20418" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="19584:19997" ph="{&quot;name&quot;: &quot;富安娜夏季夏凉蚕丝纤维混合被芯润蚕丝夏被&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="20007:20412" ph="{&quot;name&quot;: &quot;KUTTO日系素雅纯棉条纹毛巾&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="20664:22153" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="20733:22075" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="20743:21405" ph="{&quot;name&quot;: &quot;百利君威进口刀头五层手动剃须刀&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="21415:22069" ph="{&quot;name&quot;: &quot;百草味-抱抱果235g&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="22220:23006" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="22289:22947" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="22299:22451" ph="{&quot;id&quot;: &quot;1&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="22461:22613" ph="{&quot;id&quot;: &quot;2&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="22623:22775" ph="{&quot;id&quot;: &quot;3&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="22785:22941" ph="{&quot;id&quot;: &quot;4&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="23290:25036" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="23342:24991" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="24016:24989" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="24026:24256" ph="{&quot;name&quot;: &quot;100元促销卡A套餐&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="24266:24499" ph="{&quot;name&quot;: &quot;100元促销卡B套餐&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="24509:24742" ph="{&quot;name&quot;: &quot;100元促销卡C套餐&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="24752:24983" ph="{&quot;name&quot;: &quot;100元促销卡D套餐&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="25114:26270" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="25183:26189" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="26069:26157" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="26452:28681" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="26521:28603" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="26531:27559" ph="{&quot;orderno&quot;: &quot;817060948555010&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="26847:27549" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="26865:27535" ph="{&quot;supplier_id&quot;: &quot;1097&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="27064:27517" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="27090:27495" ph="{&quot;goodid&quot;: &quot;598&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="27569:28597" ph="{&quot;orderno&quot;: &quot;817060948555010&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="27885:28587" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="27903:28573" ph="{&quot;supplier_id&quot;: &quot;1097&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="28102:28555" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="28128:28533" ph="{&quot;goodid&quot;: &quot;598&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="28888:31264" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="28957:31205" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="29971:30716" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="29985:30338" ph="{&quot;goodid&quot;: &quot;611&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="30352:30706" ph="{&quot;goodid&quot;: &quot;610&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="31363:32346" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="31427:32287" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="31437:31847" ph="{&quot;id&quot;: &quot;6&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="31857:32281" ph="{&quot;id&quot;: &quot;4&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="32419:32523" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="32601:32705" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="32830:39587" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="32897:39528" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="32918:34154" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="32932:33226" ph="{&quot;name&quot;: &quot;百利君威进口刀头五层手动剃须刀&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="33240:33534" ph="{&quot;name&quot;: &quot;百利君威进口刀头五层手动剃须刀&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="33548:33839" ph="{&quot;name&quot;: &quot;端午节粽子礼盒米旗沁香粽&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="33853:34144" ph="{&quot;name&quot;: &quot;端午节粽子礼盒米旗沁香粽&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="34180:36024" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="34194:34488" ph="{&quot;name&quot;: &quot;韩版简约潮流时尚情侣手表一对2只&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="34502:34792" ph="{&quot;name&quot;: &quot;小麦秆简约水杯茶杯 2个&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="34806:35101" ph="{&quot;name&quot;: &quot;好太太正品特价机手洗衣液3kg*2&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="35115:35403" ph="{&quot;name&quot;: &quot;夏天浴室防滑拖鞋2双&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="35417:35708" ph="{&quot;name&quot;: &quot;家用加厚防滑卡通塑料凳2个&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="35722:36014" ph="{&quot;name&quot;: &quot;家用塑料内衣抽屉式收纳盒2个&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="36046:37728" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="36060:36464" ph="{&quot;id&quot;: &quot;4&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="36478:36882" ph="{&quot;id&quot;: &quot;3&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="36896:37300" ph="{&quot;id&quot;: &quot;2&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="37314:37718" ph="{&quot;id&quot;: &quot;1&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="37755:38942" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="37769:38147" ph="{&quot;id&quot;: &quot;1003&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="38161:38540" ph="{&quot;id&quot;: &quot;1002&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="38554:38932" ph="{&quot;id&quot;: &quot;1001&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="38965:39399" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="38979:39183" ph="{&quot;id&quot;: &quot;3&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="39197:39389" ph="{&quot;id&quot;: &quot;4&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="39651:44383" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="39703:44332" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="39943:42455" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="39953:40778" ph="{&quot;name&quot;: &quot;卡通办公家居坐垫2个&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="40262:40768" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="40788:41613" ph="{&quot;name&quot;: &quot;卡通办公家居坐垫2个&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="41097:41603" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="41623:42449" ph="{&quot;name&quot;: &quot;天堂三折黑胶防晒晴雨伞&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="41933:42439" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="42475:44330" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="42485:42783" ph="{&quot;name&quot;: &quot;天堂三折黑胶防晒晴雨伞&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="42793:43094" ph="{&quot;name&quot;: &quot;双枪男式紧身T恤运动纯棉短袖&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="43104:43406" ph="{&quot;name&quot;: &quot;双枪男式紧身T恤运动纯棉短袖&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="43416:43711" ph="{&quot;name&quot;: &quot;迷你usb静音电风扇&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="43721:44016" ph="{&quot;name&quot;: &quot;迷你usb静音电风扇&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="44026:44324" ph="{&quot;name&quot;: &quot;春夏季纯棉女士薄款短袜4双&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="44444:44534" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="44548:44655" ph="{...}" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/shoppingcart.css">
+    <entry file="file://$PROJECT_DIR$/html/search.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+        <state relative-caret-position="255">
+          <caret line="17" column="43" lean-forward="false" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/shoppingcart.js">
+    <entry file="file://$PROJECT_DIR$/js/search.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="93" column="33" lean-forward="false" selection-start-line="93" selection-start-column="33" selection-end-line="93" selection-end-column="33" />
+        <state relative-caret-position="150">
+          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/storedetails.scss">
+    <entry file="file://$PROJECT_DIR$/css/shoppingcart.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4976">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/storedetails.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="427" column="66" lean-forward="true" selection-start-line="427" selection-start-column="66" selection-end-line="427" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/myorder.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-684">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/storedetails.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="581">
-          <caret line="45" column="152" lean-forward="false" selection-start-line="45" selection-start-column="152" selection-end-line="45" selection-end-column="152" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/storedetails.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="90" column="16" lean-forward="false" selection-start-line="90" selection-start-column="16" selection-end-line="90" selection-end-column="24" />
+        <state relative-caret-position="630">
+          <caret line="42" column="22" lean-forward="true" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/shoppingcart.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="1" lean-forward="false" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+        <state relative-caret-position="645">
+          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/settlement.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="45" column="41" lean-forward="false" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
+        <state relative-caret-position="345">
+          <caret line="53" column="46" lean-forward="false" selection-start-line="53" selection-start-column="46" selection-end-line="53" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/index.js">
+    <entry file="file://$PROJECT_DIR$/js/settlement.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/shoppingcart.html">
+    <entry file="file://$PROJECT_DIR$/css/shoppingcart.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="10" lean-forward="true" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
+        <state relative-caret-position="645">
+          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/shoppingcart.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="22" lean-forward="true" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="43" lean-forward="false" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/search.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/shoppingcart.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="86" column="0" lean-forward="true" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+        <state relative-caret-position="15">
+          <caret line="121" column="34" lean-forward="false" selection-start-line="121" selection-start-column="34" selection-end-line="121" selection-end-column="34" />
+          <folding>
+            <marker date="1507727732030" expanded="true" signature="1114:1157" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qqq.js">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="96" column="2" lean-forward="true" selection-start-line="96" selection-start-column="2" selection-end-line="96" selection-end-column="2" />
-          <folding>
-            <marker date="1507801420768" expanded="true" signature="3077:3191" ph="/*...*/" />
-            <marker date="1507801420768" expanded="true" signature="3647:6169" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="3704:6118" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="3710:4910" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="3728:4670" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="3742:4194" ph="{&quot;id&quot;: &quot;1&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="4208:4660" ph="{&quot;id&quot;: &quot;1&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="4692:4904" ph="{&quot;id&quot;: &quot;1005&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="4916:6116" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="4934:5876" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="4948:5400" ph="{&quot;id&quot;: &quot;1&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="5414:5866" ph="{&quot;id&quot;: &quot;1&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="5898:6110" ph="{&quot;id&quot;: &quot;1005&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="6483:8592" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="6538:8541" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="6552:6736" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="6562:6736" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="6588:6736" ph="{&quot;name&quot;: &quot;平台签约供应商&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="6830:7284" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="6840:7278" ph="{&quot;id&quot;: &quot;14&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="7292:8477" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="7314:7532" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="7551:8471" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="7561:8011" ph="{&quot;id&quot;: &quot;34&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="8021:8465" ph="{&quot;id&quot;: &quot;35&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="8762:44655" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="8819:9699" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="8833:9634" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="8843:9628" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="8866:9431" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="8884:9417" ph="{&quot;name&quot;: &quot;植护居家原木抽纸6包*2&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="9457:9618" ph="{&quot;name&quot;: &quot;平台签约供应商&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="9985:10195" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="10048:10140" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="10471:12700" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="10540:12622" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="10550:11578" ph="{&quot;orderno&quot;: &quot;817060948555010&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="10866:11568" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="10884:11554" ph="{&quot;supplier_id&quot;: &quot;1097&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="11083:11536" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="11109:11514" ph="{&quot;goodid&quot;: &quot;598&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="11588:12616" ph="{&quot;orderno&quot;: &quot;817060948555010&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="11904:12606" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="11922:12592" ph="{&quot;supplier_id&quot;: &quot;1097&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="12121:12574" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="12147:12552" ph="{&quot;goodid&quot;: &quot;598&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="12900:13000" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="13068:14310" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="13125:14235" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="13131:14233" ph="{&quot;id&quot;: &quot;1001&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="13475:14227" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="13489:13845" ph="{&quot;name&quot;: &quot;德香居鸭脖礼盒&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="13859:14217" ph="{&quot;name&quot;: &quot;德香居火腿酱鸭&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="14390:15320" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="14459:15261" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="14469:15255" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="14495:14792" ph="{&quot;id&quot;: &quot;1001&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="14815:15245" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="14833:15231" ph="{&quot;name&quot;: &quot;芬娜丝女士连体丝袜2条装&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="15327:15366" ph="/** 我的收藏 ...*/" />
-            <marker date="1507801420768" expanded="true" signature="15450:17174" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="15517:17096" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="15527:17090" ph="{&quot;id&quot;: &quot;1001&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="15833:17080" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="15851:16243" ph="{&quot;name&quot;: &quot;德香居鸭脖礼盒&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="16261:16655" ph="{&quot;name&quot;: &quot;德香居火腿酱鸭&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="16673:17066" ph="{&quot;name&quot;: &quot;长白山西洋参&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="17246:17336" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="17414:17504" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="17581:19080" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="17648:19002" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="17658:18322" ph="{&quot;name&quot;: &quot;百利君威进口刀头五层手动剃须刀&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="18332:18996" ph="{&quot;name&quot;: &quot;百利君威进口刀头五层手动剃须刀&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="19152:19242" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="19320:19410" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="19505:20513" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="19574:20418" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="19584:19997" ph="{&quot;name&quot;: &quot;富安娜夏季夏凉蚕丝纤维混合被芯润蚕丝夏被&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="20007:20412" ph="{&quot;name&quot;: &quot;KUTTO日系素雅纯棉条纹毛巾&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="20664:22153" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="20733:22075" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="20743:21405" ph="{&quot;name&quot;: &quot;百利君威进口刀头五层手动剃须刀&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="21415:22069" ph="{&quot;name&quot;: &quot;百草味-抱抱果235g&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="22220:23006" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="22289:22947" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="22299:22451" ph="{&quot;id&quot;: &quot;1&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="22461:22613" ph="{&quot;id&quot;: &quot;2&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="22623:22775" ph="{&quot;id&quot;: &quot;3&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="22785:22941" ph="{&quot;id&quot;: &quot;4&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="23290:25036" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="23342:24991" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="24016:24989" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="24026:24256" ph="{&quot;name&quot;: &quot;100元促销卡A套餐&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="24266:24499" ph="{&quot;name&quot;: &quot;100元促销卡B套餐&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="24509:24742" ph="{&quot;name&quot;: &quot;100元促销卡C套餐&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="24752:24983" ph="{&quot;name&quot;: &quot;100元促销卡D套餐&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="25114:26270" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="25183:26189" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="26069:26157" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="26452:28681" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="26521:28603" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="26531:27559" ph="{&quot;orderno&quot;: &quot;817060948555010&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="26847:27549" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="26865:27535" ph="{&quot;supplier_id&quot;: &quot;1097&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="27064:27517" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="27090:27495" ph="{&quot;goodid&quot;: &quot;598&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="27569:28597" ph="{&quot;orderno&quot;: &quot;817060948555010&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="27885:28587" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="27903:28573" ph="{&quot;supplier_id&quot;: &quot;1097&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="28102:28555" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="28128:28533" ph="{&quot;goodid&quot;: &quot;598&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="28888:31264" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="28957:31205" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="29971:30716" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="29985:30338" ph="{&quot;goodid&quot;: &quot;611&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="30352:30706" ph="{&quot;goodid&quot;: &quot;610&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="31363:32346" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="31427:32287" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="31437:31847" ph="{&quot;id&quot;: &quot;6&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="31857:32281" ph="{&quot;id&quot;: &quot;4&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="32419:32523" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="32601:32705" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="32830:39587" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="32897:39528" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="32918:34154" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="32932:33226" ph="{&quot;name&quot;: &quot;百利君威进口刀头五层手动剃须刀&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="33240:33534" ph="{&quot;name&quot;: &quot;百利君威进口刀头五层手动剃须刀&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="33548:33839" ph="{&quot;name&quot;: &quot;端午节粽子礼盒米旗沁香粽&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="33853:34144" ph="{&quot;name&quot;: &quot;端午节粽子礼盒米旗沁香粽&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="34180:36024" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="34194:34488" ph="{&quot;name&quot;: &quot;韩版简约潮流时尚情侣手表一对2只&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="34502:34792" ph="{&quot;name&quot;: &quot;小麦秆简约水杯茶杯 2个&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="34806:35101" ph="{&quot;name&quot;: &quot;好太太正品特价机手洗衣液3kg*2&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="35115:35403" ph="{&quot;name&quot;: &quot;夏天浴室防滑拖鞋2双&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="35417:35708" ph="{&quot;name&quot;: &quot;家用加厚防滑卡通塑料凳2个&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="35722:36014" ph="{&quot;name&quot;: &quot;家用塑料内衣抽屉式收纳盒2个&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="36046:37728" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="36060:36464" ph="{&quot;id&quot;: &quot;4&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="36478:36882" ph="{&quot;id&quot;: &quot;3&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="36896:37300" ph="{&quot;id&quot;: &quot;2&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="37314:37718" ph="{&quot;id&quot;: &quot;1&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="37755:38942" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="37769:38147" ph="{&quot;id&quot;: &quot;1003&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="38161:38540" ph="{&quot;id&quot;: &quot;1002&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="38554:38932" ph="{&quot;id&quot;: &quot;1001&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="38965:39399" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="38979:39183" ph="{&quot;id&quot;: &quot;3&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="39197:39389" ph="{&quot;id&quot;: &quot;4&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="39651:44383" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="39703:44332" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="39943:42455" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="39953:40778" ph="{&quot;name&quot;: &quot;卡通办公家居坐垫2个&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="40262:40768" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="40788:41613" ph="{&quot;name&quot;: &quot;卡通办公家居坐垫2个&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="41097:41603" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="41623:42449" ph="{&quot;name&quot;: &quot;天堂三折黑胶防晒晴雨伞&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="41933:42439" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="42475:44330" ph="[...]" />
-            <marker date="1507801420768" expanded="true" signature="42485:42783" ph="{&quot;name&quot;: &quot;天堂三折黑胶防晒晴雨伞&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="42793:43094" ph="{&quot;name&quot;: &quot;双枪男式紧身T恤运动纯棉短袖&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="43104:43406" ph="{&quot;name&quot;: &quot;双枪男式紧身T恤运动纯棉短袖&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="43416:43711" ph="{&quot;name&quot;: &quot;迷你usb静音电风扇&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="43721:44016" ph="{&quot;name&quot;: &quot;迷你usb静音电风扇&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="44026:44324" ph="{&quot;name&quot;: &quot;春夏季纯棉女士薄款短袜4双&quot;...}" />
-            <marker date="1507801420768" expanded="true" signature="44444:44534" ph="{...}" />
-            <marker date="1507801420768" expanded="true" signature="44548:44655" ph="{...}" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="29" column="10" lean-forward="true" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+        <state relative-caret-position="-7">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/工作/KCMALL/js/address.js">
+    <entry file="file://$PROJECT_DIR$/qqq.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1875">
-          <caret line="129" column="29" lean-forward="false" selection-start-line="129" selection-start-column="29" selection-end-line="129" selection-end-column="29" />
+        <state relative-caret-position="285">
+          <caret line="116" column="25" lean-forward="true" selection-start-line="116" selection-start-column="25" selection-end-line="116" selection-end-column="25" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/editor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-41">
+          <caret line="22" column="51" lean-forward="false" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#3;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#li#3;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/editor.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-405">
+          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/工作/KCMALL/js/areaData_v2.js">
+    <entry file="file://$PROJECT_DIR$/js/addeditor.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="6144" column="28" lean-forward="true" selection-start-line="6144" selection-start-column="28" selection-end-line="6144" selection-end-column="28" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/addeditor.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="159" column="1" lean-forward="true" selection-start-line="159" selection-start-column="1" selection-end-line="159" selection-end-column="1" />
+          <folding>
+            <marker date="1507819863648" expanded="true" signature="2505:2578" ph="{...}" />
+            <marker date="1507819863648" expanded="true" signature="2590:2633" ph="{...}" />
+            <marker date="1507819863648" expanded="true" signature="2647:2941" ph="{...}" />
+            <marker date="1507819863648" expanded="true" signature="2994:2997" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/web-forms2.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="71" column="18" lean-forward="false" selection-start-line="71" selection-start-column="18" selection-end-line="71" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/addeditor.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="88" column="21" lean-forward="false" selection-start-line="88" selection-start-column="21" selection-end-line="88" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="40" lean-forward="true" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/addeditor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="52" column="27" lean-forward="true" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="27" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#header#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#3;n#ul#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/address.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/address.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+        <state relative-caret-position="425">
+          <caret line="23" column="44" lean-forward="false" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
           <folding />
         </state>
       </provider>

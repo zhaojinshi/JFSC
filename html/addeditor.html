@@ -7,6 +7,18 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/addeditor.css">
+</head>
+<body>
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/base.css">
     <link rel="stylesheet" href="../css/editor.css">
 </head>
 <body>
@@ -14,40 +26,45 @@
     <a href="address.html" style="width: 0.5rem;height:0.6rem;">
         <div class="mynews"></div>
     </a>
-    <h1>编辑地址</h1>
+    <h1>添加新地址</h1>
     <div class="preservation">保存</div>
 </header>
 <ul class="container">
     <li>
         <div class="libox">
-            <p>收货人 <input type="text" value="少时诵诗书" name="name"></p>
+            <p>收货人 <input type="text" value="" name="name"></p>
         </div>
     </li>
     <li>
         <div class="libox">
-            <p>联系电话  <input type="text" value="15251815151" name="mobile"></p>
+            <p>联系电话  <input type="text" value="" name="mobile"></p>
         </div>
     </li>
     <li>
         <div class="libox">
             <p>所在地区</p>
             <div class="addbox">
-                <div class="add"><span>山西省</span> <span>太原市</span> <span>东城区</span></div>
+                <div class="add"><span></span> <span></span> <span></span></div>
                 <div class="addpic"></div>
             </div>
         </div>
     </li>
     <li style="border: 0;">
         <div class="libox">
-           <p contenteditable="true" style="height: 1.5rem;outline: none;"></p>
+            <textarea  id="area" placeholder="请填写详细地址">
+
+            </textarea>
+            <!--<p contenteditable="true" style="height: 1.5rem;outline: none;"></p>-->
         </div>
     </li>
 </ul>
 
-<div class="footer">
-    <p>删除地址</p>
+<div class="footernone">
+    <p>设为默认</p>
 </div>
 </body>
 </html>
 <script src="../js/jquery-1.7.1.min.js"></script>
-<script src="../js/editor.js"></script>
+<script src="../js/addeditor.js"></script>
+</body>
+</html>
