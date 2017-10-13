@@ -27,7 +27,8 @@ $(function () {
     
     //点击加入购物车弹窗
     var join=$('footer .join');
-    join.on('click',function () {
+    join.on('click',function (e) {
+        e.stopPropagation()
         var data=JSON.parse($('.store-name').attr('data'));
         if(data.result.sku.length){
             // $('footer').css('display','none');
@@ -88,6 +89,11 @@ $(function () {
 
 
     });
+
+    $("body").click(function (e) {
+        $('.shop-popup').css('display','none');
+        $('.shop-popup').empty();
+    })
 var section=$(".popuprow")
 // 加减操作
     section.on('click',".add",function () {

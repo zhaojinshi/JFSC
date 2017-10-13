@@ -16,7 +16,9 @@ $(function () {
                     callback :2
                 },
                 success : function (data) {
-                   console.log(data)
+                    console.log(data)
+                }
+
             });
         })
 })
