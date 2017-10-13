@@ -46,4 +46,10 @@ $(function () {
             }
         });
     }
+
+//    搜索
+    $("input[name='search']").on("blur",function () {
+        location.href="html/search.html?key="+$("input[name='search']").val();
+        $("input[name='search']").val("")
+    })
 });
