@@ -30,8 +30,25 @@ header{
     margin-top: 0.1rem;
   }
 }
-.address-box{
+.success{
   margin-top: 1rem;
+  @include Flexbcenter;
+  background: #ff4c61;
+  padding: 0.24rem;
+  .ext{
+    font-size: 0.24rem;
+    color: #fff;
+  }
+  .extpic{
+    height: 0.5rem;
+    width: 0.6rem;
+    background: url("../images/dingd20171012171503.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
+.address-box{
   @include Flexcolumn;
   background: #fff;
   .address{
@@ -229,37 +246,6 @@ header{
           }
         }
       }
-    }
-  }
-}
-
-footer{
-  @include Flexend;
-  background: #fff;
-  height: 1rem;
-  width: 100%;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  z-index: 99999;
-  .join,.exchange{
-    height: 1rem;
-    text-align: center;
-    line-height: 1rem;
-    color: #fff;
-    font-size: 0.28rem;
-  }
-  .join{
-    background:#fe8f73;
-    width: 35%;
-  }
-  .exchange{
-    background: #ff4c61;
-    width: 65%;
-    a{
-      width: 100%;
-      display: block;
-      color: #fff;
     }
   }
 }
