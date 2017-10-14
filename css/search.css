@@ -108,10 +108,18 @@ header .sortlist ul li:nth-child(3) .arrow .arrow-s {
   margin-top: 0.04rem;
 }
 
+header .sortlist ul li:nth-child(3) .arrow .arrow-s.active {
+  border-bottom: 0.12rem solid #ff4c61;
+}
+
 header .sortlist ul li:nth-child(3) .arrow .arrow-x {
   border-left: 0.08rem solid transparent;
   border-right: 0.08rem solid transparent;
   border-top: 0.12rem solid #666;
+}
+
+header .sortlist ul li:nth-child(3) .arrow .arrow-x.active {
+  border-top: 0.12rem solid #ff4c61;
 }
 
 header .sortlist ul li:nth-child(4) {

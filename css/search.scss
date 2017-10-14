@@ -64,12 +64,18 @@ header{
               border-bottom: 0.12rem solid #666;
               margin-bottom: 0.05rem;
               margin-top: 0.04rem;
+              &.active{
+                border-bottom: 0.12rem solid #ff4c61;
+              }
 
             }
             .arrow-x{
               border-left: 0.08rem solid transparent;
               border-right: 0.08rem solid transparent;
               border-top: 0.12rem solid #666;
+              &.active{
+                border-top: 0.12rem solid #ff4c61;
+              }
             }
           }
         }

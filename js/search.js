@@ -9,6 +9,7 @@ $(function () {
         search(0,1,key)
         location.href="search.html?key="+$("input[name='search']").val();
     })
+    //渲染排序列表
     function search(supplier,order,key) {
         $.ajax({
             type:"get",
@@ -37,35 +38,52 @@ $(function () {
     $(".sortlist ul li:nth-child(1)").click(function () {
         $(".columnlist").empty();
         $('.xia').removeClass('active');
+        $('.arrow .arrow-s').removeClass('active')
+        $('.arrow .arrow-x').removeClass('active')
         search(0,1,key);
     })
     $(".sortlist ul li:nth-child(2)").click(function () {
         $(".columnlist").empty();
         $('.xia').removeClass('active');
+        $('.arrow .arrow-s').removeClass('active')
+        $('.arrow .arrow-x').removeClass('active')
         search(0,2,key);
     })
     $(".sortlist ul li:nth-child(3)").click(function () {
         $(".columnlist").empty();
         $('.xia').removeClass('active');
-        $(this).toggleClass("active")
+        $(this).toggleClass("active");
         if($(this).hasClass("active")){
+            $('.arrow .arrow-s').addClass('active')
+            $('.arrow .arrow-x').removeClass('active')
             search(0,4,key);
         }else{
+            $('.arrow .arrow-s').removeClass('active')
+            $('.arrow .arrow-x').addClass('active')
             search(0,3,key);
         }
+    });
+    $('body').on('click',function () {
+        $(".channelist").removeClass('block');
     })
-    $(".sortlist ul li:nth-child(4)").click(function () {
+    $(".sortlist ul li:nth-child(4)").click(function (e) {
+        e.stopPropagation();
+        // document.ontouchstart=function(){
+        //     return false;
+        // }
         $(".channelist").empty().toggleClass('block');
         $('.xia').addClass('active');
+        $('.arrow .arrow-s').removeClass('active')
+        $('.arrow .arrow-x').removeClass('active')
         // $('.channelist').toggleClass('block');
         $.ajax({
             type:"get",
             url : "https://api.leduika.com/v110/good/supplier.html",
             dataType : 'JSONP',
-            jsonpCallback : 'callback6',
+            jsonpCallback : 'callback2',
             data : {
                 isJSONP : 1,
-                callback :6
+                callback :2
             },
             success:function (data) {
                 console.log(data)
