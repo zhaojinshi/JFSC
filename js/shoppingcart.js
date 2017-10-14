@@ -47,7 +47,7 @@ $(function () {
 
     //购物车删除操作
     section.on("click",".delete",function () {
-        var id=$(this).closest(".purchase").attr("data_id")
+        var id=$(this).closest(".purchase").attr("data_id");
         $.ajax({
             type:"get",
             url : "https://api.leduika.com/v110/cart/delete.html?id="+id,
@@ -156,7 +156,14 @@ $(function () {
     
 //    结算操作
     $(".settlement").on("click",function () {
+        var id=[];
+       $(".arc.active").each(function (i,v) {
+           var vid=$(v).closest(".purchase").attr("data_id")
+           id.push(vid);
+       })
+            id=id.join(",")
 
+        location.href="../html/settlement.html?id="+id;
     })
 
     function total() {

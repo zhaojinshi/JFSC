@@ -128,7 +128,7 @@ https://api.leduika.com/v110/user/address.html
 
 结果		{"status":"1","msg":"success","result":{"addressid":'123'}}
 
-/v110/user/defaultaddress.html
+https://api.leduika.com/v110/user/defaultaddress.html
 
 {"addressid":"123","agent":"android","token":"6440cf5e5d3c2c60d50a57b1d384647d","request_time":"1506737918","sign":"56649b056fa02bdc175728c9c51e110f"}
 
