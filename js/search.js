@@ -30,16 +30,23 @@ $(function () {
     }
 
 //    排序
+    $(".sortlist ul li").click(function () {
+        $(this).addClass('redtive').siblings().removeClass('redtive')
+    });
+
     $(".sortlist ul li:nth-child(1)").click(function () {
         $(".columnlist").empty();
+        $('.xia').removeClass('active');
         search(0,1,key);
     })
     $(".sortlist ul li:nth-child(2)").click(function () {
         $(".columnlist").empty();
+        $('.xia').removeClass('active');
         search(0,2,key);
     })
     $(".sortlist ul li:nth-child(3)").click(function () {
         $(".columnlist").empty();
+        $('.xia').removeClass('active');
         $(this).toggleClass("active")
         if($(this).hasClass("active")){
             search(0,4,key);
@@ -48,18 +55,24 @@ $(function () {
         }
     })
     $(".sortlist ul li:nth-child(4)").click(function () {
+        $(".channelist").empty().toggleClass('block');
+        $('.xia').addClass('active');
+        // $('.channelist').toggleClass('block');
         $.ajax({
             type:"get",
             url : "https://api.leduika.com/v110/good/supplier.html",
             dataType : 'JSONP',
-            jsonpCallback : 'callback2',
+            jsonpCallback : 'callback6',
             data : {
                 isJSONP : 1,
-                callback :2
+                callback :6
             },
             success:function (data) {
                 console.log(data)
-            //    将回过来的京东天猫渲染上去
+                data.result.forEach(function (v,i) {
+                    $('<li><div class="channel"><p>'+v.name+'</p></div></li>').appendTo($('.channelist'))
+                })
+
             }
         })
     })

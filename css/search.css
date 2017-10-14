@@ -77,6 +77,88 @@ header .sortlist ul li {
   color: #666;
 }
 
+header .sortlist ul li.redtive {
+  color: #ff4c61;
+}
+
+header .sortlist ul li:nth-child(3) {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .sortlist ul li:nth-child(3) .arrow {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-left: 0.12rem;
+}
+
+header .sortlist ul li:nth-child(3) .arrow .arrow-s {
+  border-left: 0.08rem solid transparent;
+  border-right: 0.08rem solid transparent;
+  border-bottom: 0.12rem solid #666;
+  margin-bottom: 0.05rem;
+  margin-top: 0.04rem;
+}
+
+header .sortlist ul li:nth-child(3) .arrow .arrow-x {
+  border-left: 0.08rem solid transparent;
+  border-right: 0.08rem solid transparent;
+  border-top: 0.12rem solid #666;
+}
+
+header .sortlist ul li:nth-child(4) {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .sortlist ul li:nth-child(4) .xia {
+  border-left: 0.08rem solid transparent;
+  border-right: 0.08rem solid transparent;
+  border-top: 0.12rem solid #666;
+  margin-top: 0.12rem;
+  margin-left: 0.12rem;
+}
+
+header .sortlist ul li:nth-child(4) .xia.active {
+  border-top: 0.12rem solid #ff4c61;
+}
+
+.channelist {
+  background: #fff;
+  position: absolute;
+  top: 1.6rem;
+  width: 100%;
+  left: 0;
+  display: none;
+}
+
+.channelist.block {
+  display: block;
+}
+
+.channelist li {
+  border-bottom: 1px solid #eee;
+}
+
+.channelist li .channel {
+  padding: 0.24rem 0.26rem;
+}
+
+.channelist li .channel p {
+  font-size: 0.24rem;
+  color: #666;
+}
+
 .columnlist {
   display: -webkit-box;
   display: -webkit-flex;
