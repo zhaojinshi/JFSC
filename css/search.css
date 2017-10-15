@@ -167,6 +167,10 @@ header .sortlist ul li:nth-child(4) .xia.active {
   color: #666;
 }
 
+.channelist li .channel p.active {
+  color: #ff4c61;
+}
+
 .columnlist {
   display: -webkit-box;
   display: -webkit-flex;

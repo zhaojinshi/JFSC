@@ -113,7 +113,11 @@ header{
       p{
         font-size: 0.24rem;
         color:#666;
+        &.active{
+          color: #ff4c61;
+        }
       }
+
     }
   }
 }

@@ -1,12 +1,13 @@
 $(function () {
     $('input[name="search"]').val(decodeURIComponent(location.search.split("=")[1]));
-    var key=$('input[name="search"]').val()
-    search(0,1,key)
+    var key=$('input[name="search"]').val();
+    var sid=0;
+    search(sid,1,key)
     //    搜索
     $("input[name='search']").on("blur",function () {
         $(".columnlist").empty()
         key=$('input[name="search"]').val()
-        search(0,1,key)
+        search(sid,1,key)
         location.href="search.html?key="+$("input[name='search']").val();
     })
     //渲染排序列表
@@ -40,14 +41,14 @@ $(function () {
         $('.xia').removeClass('active');
         $('.arrow .arrow-s').removeClass('active')
         $('.arrow .arrow-x').removeClass('active')
-        search(0,1,key);
+        search(sid,1,key);
     })
     $(".sortlist ul li:nth-child(2)").click(function () {
         $(".columnlist").empty();
         $('.xia').removeClass('active');
         $('.arrow .arrow-s').removeClass('active')
         $('.arrow .arrow-x').removeClass('active')
-        search(0,2,key);
+        search(sid,2,key);
     })
     $(".sortlist ul li:nth-child(3)").click(function () {
         $(".columnlist").empty();
@@ -56,11 +57,11 @@ $(function () {
         if($(this).hasClass("active")){
             $('.arrow .arrow-s').addClass('active')
             $('.arrow .arrow-x').removeClass('active')
-            search(0,4,key);
+            search(sid,4,key);
         }else{
             $('.arrow .arrow-s').removeClass('active')
             $('.arrow .arrow-x').addClass('active')
-            search(0,3,key);
+            search(sid,3,key);
         }
     });
     $('body').on('click',function () {
@@ -88,10 +89,24 @@ $(function () {
             success:function (data) {
                 console.log(data)
                 data.result.forEach(function (v,i) {
-                    $('<li><div class="channel"><p>'+v.name+'</p></div></li>').appendTo($('.channelist'))
+                    var if1=$(".redtive").html().split("<")[0];
+                    var dd=if1==v.name?"active":"";
+                    $('<li data_id="'+v.id+'"><div class="channel"><p class="'+dd+'">'+v.name+'</p></div></li>').appendTo($('.channelist'))
                 })
 
             }
         })
+    })
+    $(".channelist").on("click","li",function (e) {
+        $(this).addClass("active").siblings().removeClass("active");
+        // $(this).find("p").css("color","red").closest("li").siblings().find("p").css("color","#666");
+        $(".redtive").html($(this).find("p").html()+'<i class="xia active"></i>');
+        sid=$(this).attr("data_id");
+        $(".columnlist").empty();
+        search(sid,1,key);
+
+        // if($(".redtive").html().split("<")[0]==$(this).find("p").html()){
+        //     $(this).find("p").addClass("active").closest("li").siblings().find("p").removeClass("active")
+        // }
     })
 })
