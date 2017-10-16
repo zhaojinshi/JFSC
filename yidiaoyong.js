@@ -105,7 +105,7 @@ skuid
 /neworder/order.html
 
     参数
-    id	上面两个接口中 返回的  result->list-> goodid , 逗号分隔
+    id	上面两个接口中 返回的  result->list-> id , 逗号分隔
     addressid
 
     buynum  如果用户在立即购买流程中 修改了 数量 ，否则 这个参数也可以不传。
@@ -136,7 +136,17 @@ skuid
 
 
 
+//删除订单
+    order/delete.html
 
+    参数 orderid
+ //确认订单
+
+    order/comfirm.html
+    参数 orderid
+
+  //查看物流
+    https://api.leduika.com/v110/index/shipinfo2.html?shipno=900017117929
 
 
 
