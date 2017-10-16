@@ -134,16 +134,6 @@ skuid
 
 
 
-    搜索页商品列表
-
-    /v110/good/search.html
-
-    参数 page 	 页数
-    supplier 渠道  不选为0
-    order    1 综合 2 热度  3价格降序 4 价格升序
-    key  	关键字
-
-    result
 
 
 

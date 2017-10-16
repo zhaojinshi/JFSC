@@ -99,6 +99,10 @@ section ul li .address .addressrow .addressrow-name .name span {
   font-size: 0.28rem;
   color: #ff4c61;
   margin-left: 0.5rem;
+  display: none;
+}
+section ul li .address .addressrow .addressrow-name .name span.active{
+  display: inline-block;
 }
 
 section ul li .address .addressrow .addressrow-name .photonum {

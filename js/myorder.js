@@ -75,6 +75,7 @@ $(function () {
                     // console.log(data.result)
                     $('<div class="payment"><div class="paymentBox"><div class="payment-store"><span>'+data.result[i].supplier[0].supplier_name+'</span><i>买家已付款</i></div></div> <div class="paymentRow"><div class="payment-row"><div class="paymentpic"><img src="'+data.result[i].supplier[0].list[0].goodimg+'" alt="" style="width: 1.74rem;height: 1.74rem;"></div><div class="payment-box"><div class="payment-inn">'+data.result[i].supplier[0].list[0].goodname+'</div><div class="payment-price"><div class="price-box"><div class="price">'+data.result[i].supplier[0].list[0].buyintegral+' 积分</div><div class="price-num">x<span>'+data.result[i].supplier[0].list[0].buynum+'</span></div></div></div></div> </div></div><div class="payment-allbox"><div class="payment-inall"><span>共计<span>'+data.result[i].supplier[0].buynum+'</span>件商品， 合计:  <i>'+data.result[i].totalprice.split('.')[0]+' 积分</i></span></div></div><div class="payment-footer"><a href="../html/seedetails.html?orderid='+data.result[i].orderid+'"><div class="sees">查看详情</div></a></div></div>').appendTo($('section'))
                 }
+
             }
 
         })
