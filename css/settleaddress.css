@@ -101,7 +101,8 @@ section ul li .address .addressrow .addressrow-name .name span {
   margin-left: 0.5rem;
   display: none;
 }
-section ul li .address .addressrow .addressrow-name .name span.active{
+
+section ul li .address .addressrow .addressrow-name .name span.active {
   display: inline-block;
 }
 

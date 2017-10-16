@@ -59,6 +59,10 @@ section{
                 font-size: 0.28rem;
                 color: #ff4c61;
                 margin-left: 0.5rem;
+                display: none;
+                &.active{
+                  display: inline-block;
+                }
               }
             }
             .photonum{

@@ -26,9 +26,10 @@ $(function () {
                      if(status=="2"){
                         $('<div class="payment"><div class="paymentBox"><div class="payment-store"><span>'+data.result[i].supplier[0].supplier_name+'</span><i>买家已付款</i></div></div> <div class="paymentRow"><div class="payment-row"><div class="paymentpic"><img src="'+data.result[i].supplier[0].list[0].goodimg+'" alt="" style="width: 1.74rem;height: 1.74rem;"></div><div class="payment-box"><div class="payment-inn">'+data.result[i].supplier[0].list[0].goodname+'</div><div class="payment-price"><div class="price-box"><div class="price">'+data.result[i].supplier[0].list[0].buyintegral+' 积分</div><div class="price-num">x<span>'+data.result[i].supplier[0].list[0].buynum+'</span></div></div></div></div> </div></div><div class="payment-allbox"><div class="payment-inall"><span>共计<span>'+data.result[i].supplier[0].buynum+'</span>件商品， 合计:  <i>'+data.result[i].totalprice.split('.')[0]+' 积分</i></span></div></div><div class="payment-footer"><a href="../html/seedetails.html?orderid='+data.result[i].orderid+'"><div class="sees">查看详情</div></a></div></div>').appendTo($('section'))
                     }else if(status=="3"){
-                        $('<div class="payment"><div class="paymentBox"><div class="payment-store"><span>'+data.result[i].supplier[0].supplier_name+'</span><i>卖家已发货</i></div></div><div class="paymentRow"><div class="payment-row"><div class="paymentpic"><img src="'+data.result[i].supplier[0].list[0].goodimg+'" alt="" style="width: 1.74rem;height: 1.74rem;"></div><div class="payment-box"><div class="payment-inn">'+data.result[i].supplier[0].list[0].goodname+'</div> <div class="payment-price"><div class="price-box"><div class="price">'+data.result[i].supplier[0].list[0].buyintegral+' 积分</div><div class="price-num">x<span>'+data.result[i].supplier[0].list[0].buynum+'</span></div></div></div></div></div> </div><div class="payment-allbox"><div class="payment-inall"><span>共计<span>'+data.result[i].supplier[0].buynum+'</span>件商品， 合计:  <i>'+data.result[i].totalprice.split('.')[0]+' 积分</i></span></div></div><div class="payment-footer"><a href="../html/logistics.html?shipno='+data.result[i].shipno+'" style="display: block"><div class="see">查看物流</div></a><div class="confirm" confirm-id='+data.result[i].orderid+'>确认订单</div></div></div>').appendTo($('section'))
+                        $('<div class="payment"><div class="paymentBox"><div class="payment-store"><span>'+data.result[i].supplier[0].supplier_name+'</span><i>卖家已发货</i></div></div><div class="paymentRow"><div class="payment-row"><div class="paymentpic"><img src="'+data.result[i].supplier[0].list[0].goodimg+'" alt="" style="width: 1.74rem;height: 1.74rem;"></div><div class="payment-box"><div class="payment-inn">'+data.result[i].supplier[0].list[0].goodname+'</div> <div class="payment-price"><div class="price-box"><div class="price">'+data.result[i].supplier[0].list[0].buyintegral+' 积分</div><div class="price-num">x<span>'+data.result[i].supplier[0].list[0].buynum+'</span></div></div></div></div></div> </div><div class="payment-allbox"><div class="payment-inall"><span>共计<span>'+data.result[i].supplier[0].buynum+'</span>件商品， 合计:  <i>'+data.result[i].totalprice.split('.')[0]+' 积分</i></span></div></div><div class="payment-footer"><a href="../html/logistics.html?orderid='+data.result[i].orderid+'&shipno='+data.result[i].shipno+'" style="display: block"><div class="see">查看物流</div></a><div class="confirm allconfirm" confirm-id='+data.result[i].orderid+'>确认订单</div></div></div>').appendTo($('section'))
                     }else if(status=="100"){
-                        $('<div class="payment"><div class="paymentBox"><div class="payment-store"><span>'+data.result[i].supplier[0].supplier_name+'</span><i>交易成功</i></div></div><div class="paymentRow"><div class="payment-row"><div class="paymentpic"><img src="'+data.result[i].supplier[0].list[0].goodimg+'" alt="" style="width: 1.74rem;height: 1.74rem;"></div><div class="payment-box"><div class="payment-inn">'+data.result[i].supplier[0].list[0].goodname+'</div><div class="payment-price"><div class="price-box"><div class="price">'+data.result[i].supplier[0].list[0].buyintegral+' 积分</div><div class="price-num">x<span>'+data.result[i].supplier[0].list[0].buynum+'</span></div></div></div></div> </div></div><div class="payment-allbox"><div class="payment-inall"><span>共计<span>'+data.result[i].supplier[0].buynum+'</span>件商品， 合计:  <i>'+data.result[i].totalprice.split('.')[0]+' 积分</i></span></div></div><div class="payment-footer"><div class="see" delete-id='+data.result[i].orderid+'>删除订单</div></div></div>').appendTo($('section'))
+                        console.log(data.result)
+                        $('<div class="payment"><div class="paymentBox"><div class="payment-store"><span>'+data.result[i].supplier[0].supplier_name+'</span><i>交易成功</i></div></div><div class="paymentRow"><div class="payment-row"><div class="paymentpic"><img src="'+data.result[i].supplier[0].list[0].goodimg+'" alt="" style="width: 1.74rem;height: 1.74rem;"></div><div class="payment-box"><div class="payment-inn">'+data.result[i].supplier[0].list[0].goodname+'</div><div class="payment-price"><div class="price-box"><div class="price">'+data.result[i].supplier[0].list[0].buyintegral+' 积分</div><div class="price-num">x<span>'+data.result[i].supplier[0].list[0].buynum+'</span></div></div></div></div> </div></div><div class="payment-allbox"><div class="payment-inall"><span>共计<span>'+data.result[i].supplier[0].buynum+'</span>件商品， 合计:  <i>'+data.result[i].totalprice.split('.')[0]+' 积分</i></span></div></div><div class="payment-footer"><div class="see alldelete" delete-id='+data.result[i].orderid+'>删除订单</div></div></div>').appendTo($('section'))
                     }
                 }
 
@@ -103,7 +104,7 @@ $(function () {
                 console.log(data)
                 for(let i=0;i<data.result.length;i++){
                     // console.log(data.result)
-                    $('<div class="payment"><div class="paymentBox"><div class="payment-store"><span>'+data.result[i].supplier[0].supplier_name+'</span><i>卖家已发货</i></div></div><div class="paymentRow"><div class="payment-row"><div class="paymentpic"><img src="'+data.result[i].supplier[0].list[0].goodimg+'" alt="" style="width: 1.74rem;height: 1.74rem;"></div><div class="payment-box"><div class="payment-inn">'+data.result[i].supplier[0].list[0].goodname+'</div> <div class="payment-price"><div class="price-box"><div class="price">'+data.result[i].supplier[0].list[0].buyintegral+' 积分</div><div class="price-num">x<span>'+data.result[i].supplier[0].list[0].buynum+'</span></div></div></div></div></div> </div><div class="payment-allbox"><div class="payment-inall"><span>共计<span>'+data.result[i].supplier[0].buynum+'</span>件商品， 合计:  <i>'+data.result[i].totalprice.split('.')[0]+' 积分</i></span></div></div><div class="payment-footer"><a href="../html/logistics.html?shipno='+data.result[i].shipno+'" style="display: block"><div class="see">查看物流</div></a><div class="confirm" confirm-id='+data.result[i].orderid+'>确认订单</div></div></div>').appendTo($('section'))
+                    $('<div class="payment"><div class="paymentBox"><div class="payment-store"><span>'+data.result[i].supplier[0].supplier_name+'</span><i>卖家已发货</i></div></div><div class="paymentRow"><div class="payment-row"><div class="paymentpic"><img src="'+data.result[i].supplier[0].list[0].goodimg+'" alt="" style="width: 1.74rem;height: 1.74rem;"></div><div class="payment-box"><div class="payment-inn">'+data.result[i].supplier[0].list[0].goodname+'</div> <div class="payment-price"><div class="price-box"><div class="price">'+data.result[i].supplier[0].list[0].buyintegral+' 积分</div><div class="price-num">x<span>'+data.result[i].supplier[0].list[0].buynum+'</span></div></div></div></div></div> </div><div class="payment-allbox"><div class="payment-inall"><span>共计<span>'+data.result[i].supplier[0].buynum+'</span>件商品， 合计:  <i>'+data.result[i].totalprice.split('.')[0]+' 积分</i></span></div></div><div class="payment-footer"><a href="../html/logistics.html?orderid='+data.result[i].orderid+'&shipno='+data.result[i].shipno+'" style="display: block"><div class="see">查看物流</div></a><div class="confirm oneconfirm" confirm-id='+data.result[i].orderid+'>确认订单</div></div></div>').appendTo($('section'))
                 }
             }
 
@@ -127,14 +128,14 @@ $(function () {
             success:function (data) {
                 for(let i=0;i<data.result.length;i++){
                     // console.log(data.result)
-                    $('<div class="payment"><div class="paymentBox"><div class="payment-store"><span>'+data.result[i].supplier[0].supplier_name+'</span><i>交易成功</i></div></div><div class="paymentRow"><div class="payment-row"><div class="paymentpic"><img src="'+data.result[i].supplier[0].list[0].goodimg+'" alt="" style="width: 1.74rem;height: 1.74rem;"></div><div class="payment-box"><div class="payment-inn">'+data.result[i].supplier[0].list[0].goodname+'</div><div class="payment-price"><div class="price-box"><div class="price">'+data.result[i].supplier[0].list[0].buyintegral+' 积分</div><div class="price-num">x<span>'+data.result[i].supplier[0].list[0].buynum+'</span></div></div></div></div> </div></div><div class="payment-allbox"><div class="payment-inall"><span>共计<span>'+data.result[i].supplier[0].buynum+'</span>件商品， 合计:  <i>'+data.result[i].totalprice.split('.')[0]+' 积分</i></span></div></div><div class="payment-footer"><div class="see" delete-id='+data.result[i].orderid+'>删除订单</div></div></div>').appendTo($('section'))
+                    $('<div class="payment"><div class="paymentBox"><div class="payment-store"><span>'+data.result[i].supplier[0].supplier_name+'</span><i>交易成功</i></div></div><div class="paymentRow"><div class="payment-row"><div class="paymentpic"><img src="'+data.result[i].supplier[0].list[0].goodimg+'" alt="" style="width: 1.74rem;height: 1.74rem;"></div><div class="payment-box"><div class="payment-inn">'+data.result[i].supplier[0].list[0].goodname+'</div><div class="payment-price"><div class="price-box"><div class="price">'+data.result[i].supplier[0].list[0].buyintegral+' 积分</div><div class="price-num">x<span>'+data.result[i].supplier[0].list[0].buynum+'</span></div></div></div></div> </div></div><div class="payment-allbox"><div class="payment-inall"><span>共计<span>'+data.result[i].supplier[0].buynum+'</span>件商品， 合计:  <i>'+data.result[i].totalprice.split('.')[0]+' 积分</i></span></div></div><div class="payment-footer"><div class="see delete" delete-id='+data.result[i].orderid+'>删除订单</div></div></div>').appendTo($('section'))
                 }
             }
         })
     }
     //删除订单
-    $('section').on('click','.payment .payment-footer .see',function () {
-        var orderid=$('section .payment .payment-footer .see').attr('delete-id');
+    $('section').on('click','.payment .payment-footer .delete',function () {
+        var orderid=$('section .payment .payment-footer .delete').attr('delete-id');
         $.ajax({
             type:"get",
             url:"https://api.leduika.com/v110/order/delete.html?orderid="+orderid,
@@ -149,10 +150,26 @@ $(function () {
             }
         })
     });
+    $('section').on('click','.payment .payment-footer .alldelete',function () {
+        var orderid=$('section .payment .payment-footer .alldelete').attr('delete-id');
+        $.ajax({
+            type:"get",
+            url:"https://api.leduika.com/v110/order/delete.html?orderid="+orderid,
+            dataType:'jSONP',
+            jsonpCallback:'callback2',
+            data:{
+                isJSONP:1,
+                callback:2
+            },
+            success:function (data) {
+                Ruderall();
+            }
+        })
+    });
 
     //确认订单
-    $('section').on('click','.payment .payment-footer .confirm',function () {
-        var confirmid=$('section .payment .payment-footer .confirm').attr('confirm-id');
+    $('section').on('click','.payment .payment-footer .oneconfirm',function () {
+        var confirmid=$('section .payment .payment-footer .oneconfirm').attr('confirm-id');
         $.ajax({
             type:"get",
             url:"https://api.leduika.com/v110/order/confirm.html?orderid="+confirmid,
@@ -167,22 +184,20 @@ $(function () {
             }
         })
     });
-    //查看物流
-    // $('section').on('click','.payment .payment-footer .confirm',function () {
-    //     var confirmid=$('section .payment .payment-footer .confirm').attr('confirm-id');
-    //     $.ajax({
-    //         type:"get",
-    //         url:"https://api.leduika.com/v110/order/confirm.html?orderid="+confirmid,
-    //         dataType:'jSONP',
-    //         jsonpCallback:'callback2',
-    //         data:{
-    //             isJSONP:1,
-    //             callback:2
-    //         },
-    //         success:function (data) {
-    //             ruderReceipt();
-    //         }
-    //     })
-    // });
-
+    $('section').on('click','.payment .payment-footer .allconfirm',function () {
+        var confirmid=$('section .payment .payment-footer .allconfirm').attr('confirm-id');
+        $.ajax({
+            type:"get",
+            url:"https://api.leduika.com/v110/order/confirm.html?orderid="+confirmid,
+            dataType:'jSONP',
+            jsonpCallback:'callback2',
+            data:{
+                isJSONP:1,
+                callback:2
+            },
+            success:function (data) {
+                Ruderall();
+            }
+        })
+    });
 });
