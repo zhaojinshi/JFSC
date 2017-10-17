@@ -13,7 +13,7 @@ $(function () {
             success : function (data) {
                 // console.log(data)
                 for(let i=0;i<data.result.length;i++) {
-                    // console.log(data.result);
+                    console.log(data.result);
                     $('<li><div class="shopname"><div class="namebox"><div class="arc all"></div><div class="shoplogo"></div><div class="name">'+data.result[i].supplier.supplier+'</div></div><div class="edit">编辑</div><div class="complete">完成</div></div></li>').appendTo($('.sectionblock ul'));
                     var list=data.result[i].list;
                     for(let j=0;j<list.length;j++){

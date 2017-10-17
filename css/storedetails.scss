@@ -152,7 +152,6 @@ footer{
 .shop-popup{
   //@include Flexcbetween;
   background: #fff;
-  height: 5.5rem;
   width: 100%;
   position: fixed;
   bottom: 0;
@@ -162,6 +161,7 @@ footer{
   .popuprow{
     @include Flexcolumn;
     padding: 0 0.3rem;
+    margin-bottom: 2.5rem;
     .popupweight{
       @include Flexcolumn;
       border-bottom: 1px solid #eee;
@@ -194,19 +194,22 @@ footer{
         font-size: 0.24rem;
         color: #666;
       }
-      .weight-x{
-        text-align: center;
-        font-size: 0.28rem;
-        color: #000;
-        border: 1px solid #666;
-        width: 4rem;
-        padding: 0.05rem;
-        margin: 0.1rem 0 0.2rem 0.2rem;
-        border-radius: 0.05rem;
-        &.active{
-          border: 1px solid #fe8f73;
-          color: #fff;
-          background:#fe8f73;
+      .skubox{
+        @include Flexwrap;
+        .weight-x{
+          text-align: center;
+          font-size: 0.28rem;
+          color: #000;
+          border: 1px solid #666;
+          //width: 4rem;
+          padding: 0.05rem;
+          margin: 0.1rem 0 0.2rem 0.2rem;
+          border-radius: 0.05rem;
+          &.active{
+            border: 1px solid #fe8f73;
+            color: #fff;
+            background:#fe8f73;
+          }
         }
       }
     }

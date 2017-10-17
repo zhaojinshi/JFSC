@@ -217,7 +217,6 @@ footer .exchange {
 
 .shop-popup {
   background: #fff;
-  height: 5.5rem;
   width: 100%;
   position: fixed;
   bottom: 0;
@@ -236,6 +235,7 @@ footer .exchange {
   -ms-flex-direction: column;
   flex-direction: column;
   padding: 0 0.3rem;
+  margin-bottom: 2.5rem;
 }
 
 .shop-popup .popuprow .popupweight {
@@ -295,18 +295,26 @@ footer .exchange {
   color: #666;
 }
 
-.shop-popup .popuprow .popupweight .weight-x {
+.shop-popup .popuprow .popupweight .skubox {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.shop-popup .popuprow .popupweight .skubox .weight-x {
   text-align: center;
   font-size: 0.28rem;
   color: #000;
   border: 1px solid #666;
-  width: 4rem;
   padding: 0.05rem;
   margin: 0.1rem 0 0.2rem 0.2rem;
   border-radius: 0.05rem;
 }
 
-.shop-popup .popuprow .popupweight .weight-x.active {
+.shop-popup .popuprow .popupweight .skubox .weight-x.active {
   border: 1px solid #fe8f73;
   color: #fff;
   background: #fe8f73;
