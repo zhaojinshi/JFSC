@@ -92,6 +92,11 @@ header{
           margin-bottom: 0.1rem;
           li{
             @include Flex;
+            &:nth-child(1){
+              span{
+                color:#ff4c61;
+              }
+            }
             h2{
               font-size: 0.24rem;
               color: #666;
@@ -109,6 +114,11 @@ header{
             @include Flex;
             &:nth-child(1){
               margin-bottom: 0.1rem;
+            }
+            &:nth-child(2){
+              span{
+                color: #ff4c61;
+              }
             }
             h2{
               font-size: 0.24rem;
@@ -132,7 +142,40 @@ section{
     padding: 0.24rem 0.2rem;
     li{
       @include Flexbetween;
-
+      &:nth-child(1){
+        .processbox{
+          .process{
+            background: #ff4c61;
+          }
+          .processend{
+            width: 0.16rem;
+            height: 0.16rem;
+            background-image: url("../images/reddian_20171017094832.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            margin-top: 0.1rem;
+            margin-left: 0;
+          }
+        }
+      }
+      .processbox{
+        .process{
+          height: 100%;
+          width: 1px;
+          background: #999;
+          margin-left: 0.07rem;
+        }
+        .processend{
+          width: 0.14rem;
+          height: 0.14rem;
+          background-image: url("../images/heidian20171017094904.png");
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+          margin-left: 0.01rem;
+        }
+      }
       .liitem{
         @include Flexcolumn;
         width: 85%;

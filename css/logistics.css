@@ -159,6 +159,10 @@ header .logistics-header .ullist ul:nth-child(1) li {
   display: flex;
 }
 
+header .logistics-header .ullist ul:nth-child(1) li:nth-child(1) span {
+  color: #ff4c61;
+}
+
 header .logistics-header .ullist ul:nth-child(1) li h2 {
   font-size: 0.24rem;
   color: #666;
@@ -192,6 +196,10 @@ header .logistics-header .ullist ul:nth-child(2) li:nth-child(1) {
   margin-bottom: 0.1rem;
 }
 
+header .logistics-header .ullist ul:nth-child(2) li:nth-child(2) span {
+  color: #ff4c61;
+}
+
 header .logistics-header .ullist ul:nth-child(2) li h2 {
   font-size: 0.24rem;
   color: #666;
@@ -221,6 +229,38 @@ section ul li {
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
+}
+
+section ul li:nth-child(1) .processbox .process {
+  background: #ff4c61;
+}
+
+section ul li:nth-child(1) .processbox .processend {
+  width: 0.16rem;
+  height: 0.16rem;
+  background-image: url("../images/reddian_20171017094832.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 0.1rem;
+  margin-left: 0;
+}
+
+section ul li .processbox .process {
+  height: 100%;
+  width: 1px;
+  background: #999;
+  margin-left: 0.07rem;
+}
+
+section ul li .processbox .processend {
+  width: 0.14rem;
+  height: 0.14rem;
+  background-image: url("../images/heidian20171017094904.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-left: 0.01rem;
 }
 
 section ul li .liitem {
