@@ -7,16 +7,17 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/iosSelect.css">
     <link rel="stylesheet" href="../css/editor.css">
 </head>
 <body>
-<header>
+<div class="header">
     <a href="address.html" style="width: 0.5rem;height:0.6rem;">
         <div class="mynews"></div>
     </a>
     <h1>编辑地址</h1>
     <div class="preservation">保存</div>
-</header>
+</div>
 <ul class="container">
     <li>
         <div class="libox">
@@ -31,15 +32,20 @@
     <li>
         <div class="libox">
             <p>所在地区</p>
-            <div class="addbox">
-                <div class="add"><span>山西省</span> <span>太原市</span> <span>东城区</span></div>
-                <div class="addpic"></div>
+            <div class="form-item item-line" id="select_contact" style="width: 80%">
+                <div class="pc-box">
+                    <input type="hidden" name="contact_province_code" data-id="0001" id="contact_province_code" value="" data-province-name="">
+                    <input type="hidden" name="contact_city_code" id="contact_city_code" value="" data-city-name=""><span data-city-code="35" data-province-code="1" data-district-code="375" id="show_contact"></span>
+                </div>
             </div>
         </div>
     </li>
     <li style="border: 0;">
         <div class="libox">
-           <p contenteditable="true" style="height: 1.5rem;outline: none;"></p>
+           <!--<p contenteditable="true" style="height: 1.5rem;outline: none;"></p>-->
+            <textarea  id="area">
+
+            </textarea>
         </div>
     </li>
 </ul>
@@ -50,4 +56,42 @@
 </body>
 </html>
 <script src="../js/jquery-1.7.1.min.js"></script>
+<script src="../js/iscroll.js"></script>
+<script src="../js/areaData_v2.js"></script>
+<script src="../js/iosSelect1.js"></script>
 <script src="../js/editor.js"></script>
+<script type="text/javascript">
+    var selectContactDom = $('#select_contact');
+    var showContactDom = $('#show_contact');
+    var contactProvinceCodeDom = $('#contact_province_code');
+    var contactCityCodeDom = $('#contact_city_code');
+    selectContactDom.bind('click', function () {
+        var sccode = showContactDom.attr('data-city-code');
+        var scname = showContactDom.attr('data-city-name');
+
+        var oneLevelId = showContactDom.attr('data-province-code');
+        var twoLevelId = showContactDom.attr('data-city-code');
+        var threeLevelId = showContactDom.attr('data-district-code');
+        var iosSelect = new IosSelect(3,
+            [iosProvinces, iosCitys, iosCountys],
+            {
+                title: '地址选择',
+                itemHeight: 35,
+                relation: [1, 1, 0, 0],
+                oneLevelId: oneLevelId,
+                twoLevelId: twoLevelId,
+                threeLevelId: threeLevelId,
+                callback: function (selectOneObj, selectTwoObj, selectThreeObj) {
+                    contactProvinceCodeDom.val(selectOneObj.id);
+                    contactProvinceCodeDom.attr('data-province-name', selectOneObj.value);
+                    contactCityCodeDom.val(selectTwoObj.id);
+                    contactCityCodeDom.attr('data-city-name', selectTwoObj.value);
+
+                    showContactDom.attr('data-province-code', selectOneObj.id);
+                    showContactDom.attr('data-city-code', selectTwoObj.id);
+                    showContactDom.attr('data-district-code', selectThreeObj.id);
+                    showContactDom.html(selectOneObj.value + ' ' + selectTwoObj.value + ' ' + selectThreeObj.value);
+                }
+            });
+    });
+</script>
