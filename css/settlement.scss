@@ -30,6 +30,28 @@ header{
     margin-top: 0.1rem;
   }
 }
+.success{
+  margin-top: 1rem;
+  overflow: hidden;
+  background: #ff4c61;
+  padding: 0.24rem;
+  display: none;
+  .ext{
+    font-size: 0.24rem;
+    color: #fff;
+    float: left;
+    margin-top: 0.08rem;
+  }
+  .extpic{
+    float: right;
+    height: 0.5rem;
+    width: 0.6rem;
+    background: url("../images/dingd20171012171503.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
 .address-box{
   margin-top: 1rem;
   @include Flexcolumn;

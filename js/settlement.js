@@ -10,7 +10,7 @@ $(function () {
             callback :3
         },
         success:function (data) {
-            console.log(data)
+            // console.log(data)
             if(location.search.indexOf("&")<0){
                 var data=data.result[0];
                 $('<div class="addpic"></div><div class="addinfo" address_id="'+data.addressid+'"><div class="addname"><div class="name">收货人: <span>'+data.consignee+'</span></div><div class="phone">'+data.mobile+'</div></div><div class="goodsadd"><span>收货地址: </span><p>'+data.provincename+data.cityname+data.districtname+data.address+'</p></div></div><a href="../html/settleaddress.html'+location.search.split("&")[0]+'"><div class="addarrow"></div></a>').appendTo(".address");
@@ -35,7 +35,7 @@ $(function () {
             callback :2
         },
         success:function (data) {
-            console.log(data)
+            // console.log(data)
             data.result.list.forEach(function (v,i) {
                 var number=0;
                 var price=0;
@@ -90,7 +90,15 @@ $(function () {
             },
             success:function (data) {
                 console.log(data)
+                if(data.msg=='部分商品已下架'){
+                    alert('部分商品已下架')
+                }
+                if(data.msg=='success'){
+                    $('.success').css('display','block')
+                    $('.address-box').css('marginTop','0')
+                    $('footer').css('display','none')
+                }
             }
         })
     })
-})
+});
