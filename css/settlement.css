@@ -81,8 +81,8 @@ header span {
 }
 
 .address-box .address .addpic {
-  height: 0.5rem;
-  width: 0.48rem;
+  height: 0.6rem;
+  width: 0.5rem;
   background: url("../images/dz20170928140522.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -100,6 +100,7 @@ header span {
   -ms-flex-direction: column;
   flex-direction: column;
   padding: 0 0.2rem;
+  width: 80%;
 }
 
 .address-box .address .addinfo .addname {

@@ -10,6 +10,30 @@
     <link rel="stylesheet" href="../css/iosSelect.css">
     <link rel="stylesheet" href="../css/addeditor.css">
 </head>
+<style>
+    #select_contact{
+        font-size:0.24rem;
+        /*width: 0!important;*/
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+    .jiantou{
+        height: 0.25rem;
+        width: 0.15rem;
+        background-image: url(../images/arrow.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-top: 0.04rem;
+        margin-left: 0.3rem;
+    }
+</style>
 <body>
 <div class="header">
     <a href="javascript:history.back()" style="width: 0.5rem;height:0.6rem;">
@@ -33,19 +57,18 @@
         <div class="libox">
             <p>所在地区</p>
 
-            <div class="form-item item-line" id="select_contact" style="width: 80%">
+            <div class="form-item item-line" id="select_contact">
                 <div class="pc-box">
                     <input type="hidden" name="contact_province_code" data-id="0001" id="contact_province_code" value="" data-province-name="">
-                    <input type="hidden" name="contact_city_code" id="contact_city_code" value="" data-city-name=""><span data-city-code="35" data-province-code="1" data-district-code="375" id="show_contact"></span>
+                    <input type="hidden" name="contact_city_code" id="contact_city_code" value="" data-city-name=""> <span data-city-code="35" data-province-code="1" data-district-code="375" id="show_contact"></span>
                 </div>
+                <div class="jiantou"></div>
             </div>
         </div>
     </li>
     <li style="border: 0;">
         <div class="libox">
-            <textarea  id="area" placeholder="请填写详细地址">
-
-            </textarea>
+            <textarea  id="area" placeholder="请填写详细地址"></textarea>
             <!--<p contenteditable="true" style="height: 1.5rem;outline: none;"></p>-->
         </div>
     </li>
@@ -76,7 +99,7 @@
         var iosSelect = new IosSelect(3,
             [iosProvinces, iosCitys, iosCountys],
             {
-                title: '地址选择',
+//                title: '地址选择',
                 itemHeight: 35,
                 relation: [1, 1, 0, 0],
                 oneLevelId: oneLevelId,

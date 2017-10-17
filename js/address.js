@@ -4,6 +4,7 @@
 $(function () {
     renderaddress()
     function renderaddress() {
+        $('ul').empty();
         $.ajax({
             type:"get",
             url : "https://api.leduika.com/v110/user/address.html",
@@ -69,7 +70,7 @@ $(function () {
                 callback :2
             },
             success : function (data) {
-                console.log(data)
+                renderaddress()
             }
         });
     })

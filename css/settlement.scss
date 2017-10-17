@@ -60,8 +60,8 @@ header{
     @include Flexaround;
     padding: 0.24rem 0.2rem;
     .addpic{
-      height: 0.5rem;
-      width: 0.48rem;
+      height: 0.6rem;
+      width: 0.5rem;
       background: url("../images/dz20170928140522.png");
       background-repeat: no-repeat;
       background-size: cover;
@@ -71,6 +71,7 @@ header{
     .addinfo{
       @include Flexcolumn;
       padding: 0 0.2rem;
+      width: 80%;
       .addname{
         @include Flexbetween;
         margin-bottom: 0.2rem;
