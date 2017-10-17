@@ -13,7 +13,7 @@ $(function () {
         },
         success : function (data) {
             console.log(data)
-            $('<div class="avatar" style="background-image:'+data.result.logo+'"></div><div class="nickname">'+data.result.nickname+'</div>').appendTo(".myinfo");
+            $('<div class="avatar" style="background-image:url('+data.result.logo+')"></div><div class="nickname">'+data.result.nickname+'</div>').appendTo(".myinfo");
             $(".intnum").html(data.result.integral)
         }
     });

@@ -82,6 +82,7 @@ section .myinfo .avatar {
   background-size: cover;
   background-position: center;
   margin-bottom: 0.2rem;
+  border-radius: 50%;
 }
 
 section .myinfo .nickname {

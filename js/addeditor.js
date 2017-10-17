@@ -1,6 +1,14 @@
 $(function () {
+    var defaul=0;
+    $('.footernone .btn').on('click',function () {
+        $('.footernone .btn').toggleClass('active').children().toggleClass('active')
+    })
     $(".preservation").on("click",function () {
-        var defaul=0;
+        if($('.footernone .btn').hasClass('active')){
+            defaul=1;
+        }else{
+            defaul=0;
+        }
         var name = $('input[name="name"]').val(),
             phone = $('input[name="mobile"]').val(),
             province = $('#show_contact').attr("data-province-code"),
@@ -27,7 +35,7 @@ $(function () {
                     isdefault : defaul
                 },
                 success : function (data) {
-                    console.log(data);
+                    // console.log(data);
                     if(data.msg=="success"){
                         location.href="../html/address.html?token="+localStorage.token;
                     }
