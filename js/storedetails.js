@@ -90,10 +90,10 @@ $(function () {
 
     });
 
-    $("body").click(function (e) {
-        $('.shop-popup').css('display','none');
-        $('.shop-popup').empty();
-    })
+    // $("body").click(function (e) {
+    //     $('.shop-popup').css('display','none');
+    //     $('.shop-popup').empty();
+    // })
 var section=$(".popuprow")
 // 加减操作
     section.on('click',".add",function () {

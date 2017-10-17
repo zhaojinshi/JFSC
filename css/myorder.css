@@ -138,6 +138,12 @@ section .payment .paymentRow .payment-row .payment-box .payment-inn {
   margin: 0.1rem 0 0 0.3rem;
 }
 
+section .payment .paymentRow .payment-row .payment-box .payment-sku {
+  font-size: 0.20rem;
+  color: #999;
+  margin: 0.1rem 0 0 0.3rem;
+}
+
 section .payment .paymentRow .payment-row .payment-box .payment-price {
   display: -webkit-box;
   display: -webkit-flex;

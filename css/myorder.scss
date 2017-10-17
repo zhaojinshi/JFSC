@@ -86,6 +86,11 @@ section{
             color: #000;
             margin: 0.1rem 0 0 0.3rem;
           }
+          .payment-sku{
+            font-size: 0.20rem;
+            color: #999;
+            margin: 0.1rem 0 0 0.3rem;
+          }
           .payment-price{
             @include Flexcbetween;
             margin-left: 0.3rem;
