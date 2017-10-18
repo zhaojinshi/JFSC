@@ -55,33 +55,36 @@ $(function () {
                 $('<li data_id="'+v.supplier.supplierid+'"><div class="shopname"><div class="namebox"><div class="shoplogo" style="background-image: url('+v.supplier.img+')"></div><div class="name">'+v.supplier.name+'</div></div></div><div class="list_list"></div><div class="buynumber"><span>购买数量</span> <div class="buynumberbox"><span>（限购10件）</span><div class="addandsubtract"><div class="subtract">-</div><i class="number">'+Number+'</i><div class="add">+</div></div></div></div></div><div class="mode"><span>配送方式</span><span>物流配送</span></div><div class="message"><span>用户留言</span><input type="text" placeholder="请在此处填写留言" name="message"></div><div class="lifoot"><span>共'+number+'件商品，小计 <i></i><i class="jifen">'+price+'积分</i></span></div></li>').appendTo(".sectionblock ul");
 
                 v.goods.forEach(function (v,index) {
-                    $('<div class="purchase" data_id="'+v.id+'"><div class="buypic"><div class="pic" style="background: url('+v.original+') no-repeat center/cover"></div></div><div class="buystore"><div class="store"><p>'+v.name+'</p><p>'+v.skuname+'</p></div><div class="storenum"><div class="integral"><div class="star"></div><i>'+v.saleprice.split(".")[0]+'积分</i></div><span class="nums">X'+Number+'</span></div></div></div>').appendTo($(".list_list")[i])
+                    $('<div class="purchase" data_id="'+v.goodid+'"><div class="buypic"><div class="pic" style="background: url('+v.original+') no-repeat center/cover"></div></div><div class="buystore"><div class="store"><p>'+v.name+'</p><p>'+v.skuname+'</p></div><div class="storenum"><div class="integral"><div class="star"></div><i>'+v.saleprice.split(".")[0]+'积分</i></div><span class="nums">X'+Number+'</span></div></div></div>').appendTo($(".list_list")[i])
                 })
             });
 
-            // console.log($(".number"))
-            // $(".number").html(number);
-            // console.log($(".number"))
-           // var onenumber=$(".number").html(num);
-           //  $('.nums').html("X"+onenumber);
             // 加减操作
-            $('.add').on('click',function () {
+            $('.sectionblock ul').on('click','.add',function () {
                 var num=$(this).prev().html();
                 num++;
                 if(num>10){
                     $(this).prev().html(10)
                 }else{
-                    $(this).prev().html(num)
+                    $(this).prev().html(num);
+                    $('.nums').html("X"+num);
                 }
+                var jifen=parseInt($('.integral i').html().split('积')[0])*parseInt($('.nums').html().split('X')[1]);
+                $('.jifen').html(jifen+'积分')
+                $('.join').html('合计： '+jifen+'积分')
             })
-            $(".subtract").on('click',function () {
+            $(".sectionblock ul").on('click','.subtract',function () {
                 var num=$(this).next().html();
                 num--;
                 if(num<1){
                     $(this).next().html(1)
                 }else{
-                    $(this).next().html(num)
+                    $(this).next().html(num);
+                    $('.nums').html("X"+num);
                 }
+                var jifen=parseInt($('.integral i').html().split('积')[0])*parseInt($('.nums').html().split('X')[1]);
+                $('.jifen').html(jifen+'积分')
+                $('.join').html('合计： '+jifen+'积分')
             });
 
             var total=0;
@@ -93,47 +96,36 @@ $(function () {
     })
 
     //立即下单操作
-    // $(".exchange").click(function () {
-    //     var xid=[];
-    //     var xsupplier_id=[];
-    //     var xmessage=[];
-    //     $(".purchase").each(function (i,v) {
-    //         xid.push($(v).attr("data_id"))
-    //     })
-    //     xid=xid.join(",");
-    //     $(".sectionblock ul li").each(function (i,v) {
-    //         xsupplier_id.push($(v).attr("data_id"))
-    //     })
-    //     xsupplier_id=xsupplier_id.join(",");
-    //
-    //     $("input[name='message']").each(function (i,v) {
-    //         xmessage.push($(v).val())
-    //     })
-    //     xmessage=xmessage.join(",");
-    //     $.ajax({
-    //         type:"get",
-    //         url : "https://api.leduika.com/v110/neworder/order.html",
-    //         dataType : 'JSONP',
-    //         jsonpCallback : 'callback2',
-    //         data : {
-    //             id:xid,
-    //             addressid:$(".addinfo").attr("address_id"),
-    //             supplier_id:xsupplier_id,
-    //             message:xmessage,
-    //             isJSONP : 1,
-    //             callback :2,
-    //         },
-    //         success:function (data) {
-    //             console.log(data)
-    //             if(data.msg=='部分商品已下架'){
-    //                 alert('部分商品已下架')
-    //             }
-    //             if(data.msg=='success'){
-    //                 $('.success').css('display','block')
-    //                 $('.address-box').css('marginTop','0')
-    //                 $('footer').css('display','none')
-    //             }
-    //         }
-    //     })
-    // })
+    $(".exchange").click(function () {
+        var xid=$('.purchase').attr('data_id');
+        var xsupplier_id=$('li').attr('data_id');
+        var xmessage=$('.message input').val();
+        var buynum=$('.number').html();
+        $.ajax({
+            type:"get",
+            url : "https://api.leduika.com/v110/neworder/order.html",
+            dataType : 'JSONP',
+            jsonpCallback : 'callback2',
+            data : {
+                id:xid,
+                addressid:$(".addinfo").attr("address_id"),
+                supplier_id:xsupplier_id,
+                message:xmessage,
+                buynum:buynum,
+                isJSONP : 1,
+                callback :2,
+            },
+            success:function (data) {
+                console.log(data)
+                if(data.msg=='部分商品已下架'){
+                    alert('部分商品已下架')
+                }
+                if(data.msg=='success'){
+                    $('.success').css('display','block');
+                    $('.address-box').css('marginTop','0');
+                    $('footer').css('display','none')
+                }
+            }
+        })
+    })
 });
