@@ -97,11 +97,42 @@ $(function () {
         }
     });
 
+    //购物车消失操作
     $(".swiper-container").click(function () {
         $('.shop-popup').css('display','none');
-    })
-var section=$(".popuprow")
-// 加减操作
+    });
+
+//点击立即兑换
+$('.exchange').on('click',function () {
+    var data=JSON.parse($('.store-name').attr('data'));
+    if(data.result.sku.length){
+        // $('footer').css('display','none');
+        $('.shop-popup .popuprow').empty();
+        $('.shop-popup').css('display','block');
+        $(' <div class="popupweight"><div class="weight-s"><div class="weightpic" style="background-image: url('+data.result.images[0]+')"></div><div class="jifenbox"><span class="hjifen">'+data.result.saleprice.split('.')[0]+'积分</span><div class="w-stock">(库存<span>'+data.result.stock+'</span>件)</div> </div></div><i>'+data.result.sku[0].sku+'</i><div class="skubox"></div></div><div class="popupnum"><i>购买数量</i><div class="limit"><div class="limitnum">(限购<span>10</span>件)</div> <div class="addandsubtract"> <div class="subtract">-</div> <i class="number">1</i><div class="add">+</div></div></div></div>').appendTo($('.shop-popup .popuprow'));
+        data.result.sku.forEach(function (v,i) {
+            $('<p class="weight-x" skuid="'+v.id+'">'+v.value+'</p>').appendTo('.popupweight .skubox')
+        })
+
+        //点击重量效果
+        var weight=$('.weight-x');
+        weight.on('click',function () {
+            $(this).addClass('active').siblings().removeClass('active')
+        });
+        var atonce=$('.popupfooter .atonce');
+        atonce.on('click',function () {
+            if(weight.hasClass('active')){
+                var skuid=$('.weight-x.active').attr('skuid');
+                location.href="../html/cartsettlement.html?token="+data.token+"&skuid="+skuid+"&goodid="+data.result.goodid+"&buynum="+$(".number").html();
+            }
+        });
+    }else{
+        location.href="../html/cartsettlement.html?token="+data.token+"&goodid="+data.result.goodid+"&buynum=1";
+    }
+})
+
+    // 加减操作
+    var section=$(".popuprow")
     section.on('click',".add",function () {
         var num=$(this).prev().html();
         num++;

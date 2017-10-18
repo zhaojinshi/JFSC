@@ -1,0 +1,490 @@
+body {
+  background: #fcfcfc;
+}
+
+header {
+  padding: 0.2rem 0.26rem;
+  height: 1rem;
+  width: 100%;
+  border-bottom: 1px solid #eee;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+  background: #fff;
+}
+
+header .edit {
+  width: 0.2rem;
+  height: 0.34rem;
+  float: left;
+  background-image: url(../images/596932904110395182.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 0.14rem;
+}
+
+header span {
+  font-size: 0.28rem;
+  color: #333;
+  display: block;
+  float: right;
+  margin-top: 0.1rem;
+}
+
+.success {
+  margin-top: 1rem;
+  overflow: hidden;
+  background: #ff4c61;
+  padding: 0.24rem;
+  display: none;
+}
+
+.success .ext {
+  font-size: 0.24rem;
+  color: #fff;
+  float: left;
+  margin-top: 0.08rem;
+}
+
+.success .extpic {
+  float: right;
+  height: 0.5rem;
+  width: 0.6rem;
+  background: url("../images/dingd20171012171503.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.address-box {
+  margin-top: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background: #fff;
+}
+
+.address-box .address {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-around;
+  padding: 0.24rem 0.2rem;
+}
+
+.address-box .address .addpic {
+  height: 0.6rem;
+  width: 0.5rem;
+  background: url("../images/dz20170928140522.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 0.2rem;
+}
+
+.address-box .address .addinfo {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 0 0.2rem;
+  width: 80%;
+}
+
+.address-box .address .addinfo .addname {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 0.2rem;
+}
+
+.address-box .address .addinfo .addname .name {
+  font-size: 0.24rem;
+  color: #000;
+}
+
+.address-box .address .addinfo .addname .phone {
+  font-size: 0.24rem;
+  color: #000;
+}
+
+.address-box .address .addinfo .goodsadd {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.address-box .address .addinfo .goodsadd span {
+  font-size: 0.24rem;
+  color: #000;
+}
+
+.address-box .address .addinfo .goodsadd p {
+  font-size: 0.24rem;
+  color: #000;
+  width: 80%;
+}
+
+.address-box .address .addarrow {
+  height: 0.25rem;
+  width: 0.15rem;
+  background-image: url(../images/arrow.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 0.3rem;
+}
+
+.address-box .addfoot {
+  height: 0.1rem;
+  background: url("../images/tiao20171009173852.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.sectionblock {
+  margin-bottom: 1rem;
+}
+
+.sectionblock ul li {
+  background: #fff;
+}
+
+.sectionblock ul li .shopname {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.2rem;
+}
+
+.sectionblock ul li .shopname .namebox {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sectionblock ul li .shopname .namebox .shoplogo {
+  margin-right: 0.1rem;
+  margin-top: 0.04rem;
+  width: 0.26rem;
+  height: 0.26rem;
+  background-image: url(../images/746221974900540991.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.sectionblock ul li .shopname .namebox .name {
+  font-size: 0.24rem;
+  color: #000;
+}
+
+.sectionblock ul li .purchase {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0.15rem 0.2rem;
+  border-bottom: 1px solid #eee;
+}
+
+.sectionblock ul li .purchase .buypic {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sectionblock ul li .purchase .buypic .pic {
+  width: 1.74rem;
+  height: 1.74rem;
+  background: red;
+}
+
+.sectionblock ul li .purchase .buystore {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-left: 0.28rem;
+  width: 80%;
+}
+
+.sectionblock ul li .purchase .buystore .store {
+  padding-bottom: 0.4rem;
+}
+
+.sectionblock ul li .purchase .buystore .store p:nth-child(1) {
+  font-size: 0.24rem;
+  color: #000;
+  padding-bottom: 0.18rem;
+}
+
+.sectionblock ul li .purchase .buystore .store p:nth-child(2) {
+  font-size: 0.22rem;
+  color: #999;
+}
+
+.sectionblock ul li .purchase .buystore .storenum {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.sectionblock ul li .purchase .buystore .storenum .integral {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sectionblock ul li .purchase .buystore .storenum .integral .star {
+  margin: 0.05rem 0.05rem 0 0;
+  width: 0.26rem;
+  height: 0.26rem;
+  background-image: url(../images/656715104412092630.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.sectionblock ul li .purchase .buystore .storenum .integral i {
+  font-size: 0.28rem;
+  color: red;
+}
+
+.sectionblock ul li .purchase .buystore .storenum .nums {
+  font-size: 0.28rem;
+  color: #000;
+}
+
+.sectionblock ul li .buynumber {
+  border-bottom: 1px solid #eee;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.2rem;
+}
+
+.sectionblock ul li .buynumber span {
+  font-size: 0.24rem;
+  color: #000;
+}
+
+.sectionblock ul li .buynumber .buynumberbox {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.sectionblock ul li .buynumber .buynumberbox span {
+  font-size: 0.24rem;
+  color: #666;
+}
+
+.sectionblock ul li .buynumber .buynumberbox .addandsubtract {
+  width: 1.6rem;
+  height: 0.4rem;
+  border: 1px solid #999999;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sectionblock ul li .buynumber .buynumberbox .addandsubtract .subtract {
+  text-align: center;
+  line-height: 0.3rem;
+  font-size: 0.4rem;
+  color: #666;
+  width: 0.4rem;
+  height: 0.39rem;
+  border-right: 1px solid #999;
+}
+
+.sectionblock ul li .buynumber .buynumberbox .addandsubtract .number {
+  text-align: center;
+  line-height: 0.4rem;
+  font-size: 0.24rem;
+  color: #000;
+  width: 0.8rem;
+  height: 0.39rem;
+  border-right: 1px solid #999;
+}
+
+.sectionblock ul li .buynumber .buynumberbox .addandsubtract .add {
+  text-align: center;
+  line-height: 0.35rem;
+  font-size: 0.3rem;
+  color: #666;
+  width: 0.4rem;
+  height: 0.39rem;
+}
+
+.sectionblock ul li .mode {
+  border-bottom: 1px solid #eee;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.1rem 0.2rem;
+}
+
+.sectionblock ul li .mode span {
+  font-size: 0.24rem;
+  color: #000;
+}
+
+.sectionblock ul li .message {
+  border-bottom: 1px solid #eee;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0.2rem;
+}
+
+.sectionblock ul li .message span {
+  font-size: 0.24rem;
+  color: #000;
+}
+
+.sectionblock ul li .message input {
+  outline: none;
+  border: none;
+  margin-left: 0.2rem;
+  font-size: 0.2rem;
+  width: 80%;
+}
+
+.sectionblock ul li .lifoot {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: flex-end;
+  -moz-justify-content: flex-end;
+  -ms-justify-content: flex-end;
+  -o-justify-content: flex-end;
+  justify-content: flex-end;
+  padding: 0.1rem 0.2rem;
+}
+
+.sectionblock ul li .lifoot span {
+  font-size: 0.24rem;
+  color: #000;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sectionblock ul li .lifoot span i:nth-child(1) {
+  margin: 0.03rem 0.15rem 0;
+  width: 0.26rem;
+  height: 0.26rem;
+  background-image: url(../images/656715104412092630.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.sectionblock ul li .lifoot span i:nth-child(2) {
+  font-size: 0.24rem;
+  color: #ff4c61;
+}
+
+footer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: flex-end;
+  -moz-justify-content: flex-end;
+  -ms-justify-content: flex-end;
+  -o-justify-content: flex-end;
+  justify-content: flex-end;
+  background: #fff;
+  height: 1rem;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 99999;
+}
+
+footer .join, footer .exchange {
+  height: 1rem;
+  text-align: center;
+  line-height: 1rem;
+  color: #fff;
+  font-size: 0.28rem;
+}
+
+footer .join {
+  background: #fe8f73;
+  width: 35%;
+}
+
+footer .exchange {
+  background: #ff4c61;
+  width: 65%;
+}
+
+footer .exchange a {
+  width: 100%;
+  display: block;
+  color: #fff;
+}
