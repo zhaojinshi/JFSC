@@ -58,7 +58,7 @@ $(function () {
             $(".join").html("合计："+total+"积分");
         }
     })
-    立即下单操作
+    // 立即下单操作
     $(".exchange").click(function () {
         var xid=[];
         var xsupplier_id=[];

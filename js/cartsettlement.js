@@ -56,6 +56,9 @@ $(function () {
                     $('<div class="purchase" data_id="'+v.id+'"><div class="buypic"><div class="pic" style="background: url('+v.original+') no-repeat center/cover"></div></div><div class="buystore"><div class="store"><p>'+v.name+'</p><p>'+v.skuname+'</p></div><div class="storenum"><div class="integral"><div class="star"></div><i>'+v.saleprice.split(".")[0]+'积分</i></div><span class="nums">X'+v.buynum+'</span></div></div></div>').appendTo($(".list_list")[i])
                 })
             });
+
+            console.log($(".number"))
+            console.log($(".nums").split('X')[1])
             var total=0;
             $(".jifen").each(function (i,vrr) {
                 total+=parseInt($(vrr).html().split("积")[0]);
