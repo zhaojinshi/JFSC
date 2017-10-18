@@ -110,7 +110,7 @@ header h1 {
 .setup li .toppt .liafter span {
   font-size: 0.28rem;
   color: #666;
-  margin-top: 0.02rem;
+  margin-top: 0.03rem;
 }
 
 .setup li .toppt .liafter .clickset {
@@ -121,4 +121,5 @@ header h1 {
   background-size: cover;
   background-position: center;
   margin-top: 0.3rem;
+  margin-left: 0.2rem;
 }
