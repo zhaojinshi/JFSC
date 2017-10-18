@@ -15,6 +15,7 @@ $(function () {
             }
 
             $('<div class="store-name" data='+JSON.stringify(data).split(" ").join("")+'><div class="store-pic" style="background-image: url('+data.result.supplierimg+')"></div><div class="namebox"><span>'+data.result.suppliername+'</span><div class="name-pic" style="background-image: url('+data.result.suppliercategory+')"></div></div></div><p>'+data.result.name+'</p><div class="integral"><div class="jifen">'+data.result.saleprice.split('.')[0]+'积分</div><div class="stockbox"><div class="price">市场价:￥'+data.result.marketprice+'</div><div class="stock">库存 <span>'+data.result.stock+'</span></div></div> </div><div class="store-ment"> <div class="ment-pic"></div> <span>本商城商品由京东、天猫商家提供，正品保障一流服务</span></div>').appendTo($('.storelist'));
+            $('<iframe src="'+data.result.detailurl+'" frameborder="0" width="100%" height="100%"></iframe>').appendTo('section')
 
 
             var swiper = new Swiper('.swiper-container', {
@@ -148,6 +149,45 @@ $('.exchange').on('click',function () {
         }
     })
 
+
+//    下滑操作
+    var oBody = document.getElementsByTagName("body")[0];
+    var oHeader = document.getElementsByTagName("header")[0];
+    var oSection = document.getElementsByTagName("section")[0];
+    // var oDiv1 = document.getElementsByTagName("div")[0];
+    // var oDiv2 = document.getElementsByTagName("div")[1];
+    var startX = 0;
+    var startY = 0;
+    var diffX = 0;
+    var diffY = 0;
+    var flag = true;
+    oBody.addEventListener("touchstart",function(e){
+        var touches = e.touches;
+        startX = touches[0].pageX;
+        startY = touches[0].pageY;
+    },false);
+    oBody.addEventListener("touchmove",function(e){
+        var touches = e.touches;
+        diffY = startY - touches[0].pageY;
+        diffX = startX - touches[0].pageX;
+    },false);
+    oBody.addEventListener("touchend",function(e){
+        if(flag && document.body.scrollHeight - document.body.clientHeight <= document.body.scrollTop + 14 && diffY > 100){
+            //oHeader.style.display = "none";
+            $(".top").slideUp(200);
+            oSection.style.display = "block";
+            document.body.scrollTop = 50;
+            flag = false;
+        }else if(!flag && document.body.scrollTop == 0 && diffY < -50){
+            alert(2)
+            // $(".top").slideDown(200,function(){
+            $(".top").css("display","block")
+                oSection.style.display = "none";
+            // });
+
+            flag = true;
+        }
+    },false);
 
 // //图片点击放大
 //     function figureTap () {

@@ -19,6 +19,10 @@ $(function () {
     });
 //    点击地址
     $("ul").on("click","li",function () {
+        if(location.href.indexOf("goodid")<0){
             location.href="../html/settlement.html"+location.search+"&addressid="+$(this).attr("data_id")
+        }else{
+            location.href="../html/cartsettlement.html"+location.search+"&addressid="+$(this).attr("data_id")
+        }
     })
 })

@@ -19,11 +19,11 @@ $(function () {
             // console.log(data)
             if(location.href.indexOf("addressid")<0 ){
                 var data=data.result[0];
-                $('<div class="addpic"></div><div class="addinfo" address_id="'+data.addressid+'"><div class="addname"><div class="name">收货人: <span>'+data.consignee+'</span></div><div class="phone">'+data.mobile+'</div></div><div class="goodsadd"><span>收货地址: </span><p>'+data.provincename+data.cityname+data.districtname+data.address+'</p></div></div><a href="../html/settleaddress.html'+location.search.split("&")[0]+'"><div class="addarrow"></div></a>').appendTo(".address");
+                $('<div class="addpic"></div><div class="addinfo" address_id="'+data.addressid+'"><div class="addname"><div class="name">收货人: <span>'+data.consignee+'</span></div><div class="phone">'+data.mobile+'</div></div><div class="goodsadd"><span>收货地址: </span><p>'+data.provincename+data.cityname+data.districtname+data.address+'</p></div></div><a href="../html/settleaddress.html'+location.search.split("addressid")[0]+'"><div class="addarrow"></div></a>').appendTo(".address");
             }else{
                 data.result.forEach(function (v,i) {
                     if(v.addressid==GetQueryString("addressid")){
-                        $('<div class="addpic"></div><div class="addinfo" address_id="'+v.addressid+'"><div class="addname"><div class="name">收货人: <span>'+v.consignee+'</span></div><div class="phone">'+v.mobile+'</div></div><div class="goodsadd"><span>收货地址: </span><p>'+v.provincename+v.cityname+v.districtname+v.address+'</p></div></div><a href="../html/settleaddress.html'+location.search.split("&")[0]+'"><div class="addarrow"></div></a>').appendTo(".address");
+                        $('<div class="addpic"></div><div class="addinfo" address_id="'+v.addressid+'"><div class="addname"><div class="name">收货人: <span>'+v.consignee+'</span></div><div class="phone">'+v.mobile+'</div></div><div class="goodsadd"><span>收货地址: </span><p>'+v.provincename+v.cityname+v.districtname+v.address+'</p></div></div><a href="../html/settleaddress.html'+location.search.split("addressid")[0]+'"><div class="addarrow"></div></a>').appendTo(".address");
                     }
                 })
             }
