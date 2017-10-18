@@ -58,48 +58,48 @@ $(function () {
             $(".join").html("合计："+total+"积分");
         }
     })
-    //立即下单操作
-    // $(".exchange").click(function () {
-    //     var xid=[];
-    //     var xsupplier_id=[];
-    //     var xmessage=[];
-    //     $(".purchase").each(function (i,v) {
-    //         xid.push($(v).attr("data_id"))
-    //     })
-    //     xid=xid.join(",");
-    //     $(".sectionblock ul li").each(function (i,v) {
-    //         xsupplier_id.push($(v).attr("data_id"))
-    //     })
-    //     xsupplier_id=xsupplier_id.join(",");
-    //
-    //     $("input[name='message']").each(function (i,v) {
-    //         xmessage.push($(v).val())
-    //     })
-    //     xmessage=xmessage.join(",");
-    //     $.ajax({
-    //         type:"get",
-    //         url : "https://api.leduika.com/v110/neworder/order.html",
-    //         dataType : 'JSONP',
-    //         jsonpCallback : 'callback2',
-    //         data : {
-    //             id:xid,
-    //             addressid:$(".addinfo").attr("address_id"),
-    //             supplier_id:xsupplier_id,
-    //             message:xmessage,
-    //             isJSONP : 1,
-    //             callback :2,
-    //         },
-    //         success:function (data) {
-    //             console.log(data)
-    //             if(data.msg=='部分商品已下架'){
-    //                 alert('部分商品已下架')
-    //             }
-    //             if(data.msg=='success'){
-    //                 $('.success').css('display','block')
-    //                 $('.address-box').css('marginTop','0')
-    //                 $('footer').css('display','none')
-    //             }
-    //         }
-    //     })
-    // })
+    立即下单操作
+    $(".exchange").click(function () {
+        var xid=[];
+        var xsupplier_id=[];
+        var xmessage=[];
+        $(".purchase").each(function (i,v) {
+            xid.push($(v).attr("data_id"))
+        })
+        xid=xid.join(",");
+        $(".sectionblock ul li").each(function (i,v) {
+            xsupplier_id.push($(v).attr("data_id"))
+        })
+        xsupplier_id=xsupplier_id.join(",");
+
+        $("input[name='message']").each(function (i,v) {
+            xmessage.push($(v).val())
+        })
+        xmessage=xmessage.join(",");
+        $.ajax({
+            type:"get",
+            url : "https://api.leduika.com/v110/neworder/order.html",
+            dataType : 'JSONP',
+            jsonpCallback : 'callback2',
+            data : {
+                id:xid,
+                addressid:$(".addinfo").attr("address_id"),
+                supplier_id:xsupplier_id,
+                message:xmessage,
+                isJSONP : 1,
+                callback :2,
+            },
+            success:function (data) {
+                console.log(data)
+                if(data.msg=='部分商品已下架'){
+                    alert('部分商品已下架')
+                }
+                if(data.msg=='success'){
+                    $('.success').css('display','block')
+                    $('.address-box').css('marginTop','0')
+                    $('footer').css('display','none')
+                }
+            }
+        })
+    })
 });
