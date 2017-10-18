@@ -47,18 +47,43 @@ $(function () {
                 var number=0;
                 var price=0;
                 v.goods.forEach(function (val,index) {
+                    Number=val.buynum;
+                    // console.log(Number)
                     number+=parseInt(val.buynum);
                     price+=parseInt(val.buynum)*parseInt(val.saleprice);
                 });
-                $('<li data_id="'+v.supplier.supplierid+'"><div class="shopname"><div class="namebox"><div class="shoplogo" style="background-image: url('+v.supplier.img+')"></div><div class="name">'+v.supplier.name+'</div></div></div><div class="list_list"></div><div class="buynumber"><span>购买数量</span> <div class="buynumberbox"><span>（限购10件）</span><div class="addandsubtract"><div class="subtract">-</div><i class="number">3</i><div class="add">+</div></div></div></div></div><div class="mode"><span>配送方式</span><span>物流配送</span></div><div class="message"><span>用户留言</span><input type="text" placeholder="请在此处填写留言" name="message"></div><div class="lifoot"><span>共'+number+'件商品，小计 <i></i><i class="jifen">'+price+'积分</i></span></div></li>').appendTo(".sectionblock ul");
+                $('<li data_id="'+v.supplier.supplierid+'"><div class="shopname"><div class="namebox"><div class="shoplogo" style="background-image: url('+v.supplier.img+')"></div><div class="name">'+v.supplier.name+'</div></div></div><div class="list_list"></div><div class="buynumber"><span>购买数量</span> <div class="buynumberbox"><span>（限购10件）</span><div class="addandsubtract"><div class="subtract">-</div><i class="number">'+Number+'</i><div class="add">+</div></div></div></div></div><div class="mode"><span>配送方式</span><span>物流配送</span></div><div class="message"><span>用户留言</span><input type="text" placeholder="请在此处填写留言" name="message"></div><div class="lifoot"><span>共'+number+'件商品，小计 <i></i><i class="jifen">'+price+'积分</i></span></div></li>').appendTo(".sectionblock ul");
 
                 v.goods.forEach(function (v,index) {
-                    $('<div class="purchase" data_id="'+v.id+'"><div class="buypic"><div class="pic" style="background: url('+v.original+') no-repeat center/cover"></div></div><div class="buystore"><div class="store"><p>'+v.name+'</p><p>'+v.skuname+'</p></div><div class="storenum"><div class="integral"><div class="star"></div><i>'+v.saleprice.split(".")[0]+'积分</i></div><span class="nums">X'+v.buynum+'</span></div></div></div>').appendTo($(".list_list")[i])
+                    $('<div class="purchase" data_id="'+v.id+'"><div class="buypic"><div class="pic" style="background: url('+v.original+') no-repeat center/cover"></div></div><div class="buystore"><div class="store"><p>'+v.name+'</p><p>'+v.skuname+'</p></div><div class="storenum"><div class="integral"><div class="star"></div><i>'+v.saleprice.split(".")[0]+'积分</i></div><span class="nums">X'+Number+'</span></div></div></div>').appendTo($(".list_list")[i])
                 })
             });
 
-            console.log($(".number"))
-            console.log($(".nums").split('X')[1])
+            // console.log($(".number"))
+            // $(".number").html(number);
+            // console.log($(".number"))
+           // var onenumber=$(".number").html(num);
+           //  $('.nums').html("X"+onenumber);
+            // 加减操作
+            $('.add').on('click',function () {
+                var num=$(this).prev().html();
+                num++;
+                if(num>10){
+                    $(this).prev().html(10)
+                }else{
+                    $(this).prev().html(num)
+                }
+            })
+            $(".subtract").on('click',function () {
+                var num=$(this).next().html();
+                num--;
+                if(num<1){
+                    $(this).next().html(1)
+                }else{
+                    $(this).next().html(num)
+                }
+            });
+
             var total=0;
             $(".jifen").each(function (i,vrr) {
                 total+=parseInt($(vrr).html().split("积")[0]);
