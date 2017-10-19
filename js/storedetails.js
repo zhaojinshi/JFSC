@@ -32,7 +32,7 @@ $(function () {
         e.stopPropagation()
         var data=JSON.parse($('.store-name').attr('data'));
         if(data.result.sku.length){
-            // $('footer').css('display','none');
+            $('footer').css('display','none');
             $('.shop-popup .popuprow').empty();
             $('.shop-popup').css('display','block');
             $(' <div class="popupweight"><div class="weight-s"><div class="weightpic" style="background-image: url('+data.result.images[0]+')"></div><div class="jifenbox"><span class="hjifen">'+data.result.saleprice.split('.')[0]+'积分</span><div class="w-stock">(库存<span>'+data.result.stock+'</span>件)</div> </div></div><i>'+data.result.sku[0].sku+'</i><div class="skubox"></div></div><div class="popupnum"><i>购买数量</i><div class="limit"><div class="limitnum">(限购<span>10</span>件)</div> <div class="addandsubtract"> <div class="subtract">-</div> <i class="number">1</i><div class="add">+</div></div></div></div>').appendTo($('.shop-popup .popuprow'));
@@ -63,12 +63,13 @@ $(function () {
                             buynum:$(".number").html()
                         },
                         success : function (data) {
+                            $(".success").remove();
                             $('<div class="success">'+data.msg+'</div>').appendTo('body');
                             setTimeout(function () {
                                 $('.success').addClass('active')
                             },50);
                             setTimeout(function () {
-                                $('.success').removeClass('active')
+                                $('.success').css("opacity","0").hide().removeClass('active')
                             },1000);
                         }
                     });
@@ -85,10 +86,10 @@ $(function () {
                     callback :5
                 },
                 success : function (data) {
-                    $("sucess").remove();
+                    $(".success").remove();
                     $('<div class="success">'+data.msg+'</div>').appendTo('body');
                     setTimeout(function () {
-                        $('.success').show().addClass('active')
+                        $('.success').addClass('active')
                     },50);
                     setTimeout(function () {
                         $('.success').css("opacity","0").hide().removeClass('active')
@@ -100,6 +101,7 @@ $(function () {
 
     //购物车消失操作
     $(".swiper-container").click(function () {
+        $('footer').css('display','flex');
         $('.shop-popup').css('display','none');
     });
 
@@ -107,7 +109,7 @@ $(function () {
 $('.exchange').on('click',function () {
     var data=JSON.parse($('.store-name').attr('data'));
     if(data.result.sku.length){
-        // $('footer').css('display','none');
+        $('footer').css('display','none');
         $('.shop-popup .popuprow').empty();
         $('.shop-popup').css('display','block');
         $(' <div class="popupweight"><div class="weight-s"><div class="weightpic" style="background-image: url('+data.result.images[0]+')"></div><div class="jifenbox"><span class="hjifen">'+data.result.saleprice.split('.')[0]+'积分</span><div class="w-stock">(库存<span>'+data.result.stock+'</span>件)</div> </div></div><i>'+data.result.sku[0].sku+'</i><div class="skubox"></div></div><div class="popupnum"><i>购买数量</i><div class="limit"><div class="limitnum">(限购<span>10</span>件)</div> <div class="addandsubtract"> <div class="subtract">-</div> <i class="number">1</i><div class="add">+</div></div></div></div>').appendTo($('.shop-popup .popuprow'));

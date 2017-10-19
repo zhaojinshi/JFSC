@@ -1,10 +1,7 @@
 body {
   background: #fcfcfc;
-  height: 100%;
 }
-html{
-  height: 100%;
-}
+
 header {
   padding: 0.2rem 0.26rem;
   height: 1rem;
@@ -224,7 +221,7 @@ footer .exchange {
   position: fixed;
   bottom: 0;
   left: 0;
-  z-index: 9999999;
+  z-index: 99998;
   display: none;
 }
 
@@ -238,7 +235,7 @@ footer .exchange {
   -ms-flex-direction: column;
   flex-direction: column;
   padding: 0 0.3rem;
-  margin-bottom: 2.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .shop-popup .popuprow .popupweight {
@@ -401,10 +398,6 @@ footer .exchange {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  z-index: 99999999;
 }
 
 .shop-popup .popupfooter .joinshopcart {
@@ -435,14 +428,14 @@ footer .exchange {
   font-size: 0.24rem;
   color: #fff;
   border-radius: 0.08rem;
-  line-height: 0.5rem;
-  padding: 0.1rem;
+  line-height: 0.7rem;
+  padding: 0;
   position: absolute;
-  bottom: -1rem;
+  bottom: 0;
   left: 50%;
   z-index: 99998;
   margin-left: -0.75rem;
-  transition: transform 0.3s cubic-bezier(0.21, 0.55, 0.18, 1.22);
+  transition: all 0.3s cubic-bezier(0.21, 0.55, 0.18, 1.22);
 }
 
 .success.active {

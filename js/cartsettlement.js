@@ -55,7 +55,7 @@ $(function () {
                 $('<li data_id="'+v.supplier.supplierid+'"><div class="shopname"><div class="namebox"><div class="shoplogo" style="background-image: url('+v.supplier.img+')"></div><div class="name">'+v.supplier.name+'</div></div></div><div class="list_list"></div><div class="buynumber"><span>购买数量</span> <div class="buynumberbox"><span>（限购10件）</span><div class="addandsubtract"><div class="subtract">-</div><i class="number">'+Number+'</i><div class="add">+</div></div></div></div></div><div class="mode"><span>配送方式</span><span>物流配送</span></div><div class="message"><span>用户留言</span><input type="text" placeholder="请在此处填写留言" name="message"></div><div class="lifoot"><span>共'+number+'件商品，小计 <i></i><i class="jifen">'+price+'积分</i></span></div></li>').appendTo(".sectionblock ul");
 
                 v.goods.forEach(function (v,index) {
-                    $('<div class="purchase" data_id="'+v.goodid+'"><div class="buypic"><div class="pic" style="background: url('+v.original+') no-repeat center/cover"></div></div><div class="buystore"><div class="store"><p>'+v.name+'</p><p>'+v.skuname+'</p></div><div class="storenum"><div class="integral"><div class="star"></div><i>'+v.saleprice.split(".")[0]+'积分</i></div><span class="nums">X'+Number+'</span></div></div></div>').appendTo($(".list_list")[i])
+                    $('<div class="purchase" data_id="'+v.id+'"><div class="buypic"><div class="pic" style="background: url('+v.original+') no-repeat center/cover"></div></div><div class="buystore"><div class="store"><p>'+v.name+'</p><p>'+v.skuname+'</p></div><div class="storenum"><div class="integral"><div class="star"></div><i>'+v.saleprice.split(".")[0]+'积分</i></div><span class="nums">X'+Number+'</span></div></div></div>').appendTo($(".list_list")[i])
                 })
             });
 
@@ -118,7 +118,14 @@ $(function () {
             success:function (data) {
                 console.log(data)
                 if(data.msg=='部分商品已下架'){
-                    alert('部分商品已下架')
+                    $(".suc-btn").remove();
+                    $('<div class="suc-btn">'+data.msg+'</div>').appendTo('body');
+                    setTimeout(function () {
+                        $('.suc-btn').addClass('active')
+                    },50);
+                    setTimeout(function () {
+                        $('.suc-btn').css("opacity","0").hide().removeClass('active')
+                    },1000);
                 }
                 if(data.msg=='success'){
                     $('.success').css('display','block');

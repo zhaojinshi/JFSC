@@ -92,7 +92,14 @@ $(function () {
             success:function (data) {
                 console.log(data)
                 if(data.msg=='部分商品已下架'){
-                    alert('部分商品已下架')
+                    $(".suc-btn").remove();
+                    $('<div class="suc-btn">'+data.msg+'</div>').appendTo('body');
+                    setTimeout(function () {
+                        $('.suc-btn').addClass('active')
+                    },50);
+                    setTimeout(function () {
+                        $('.suc-btn').css("opacity","0").hide().removeClass('active')
+                    },1000);
                 }
                 if(data.msg=='success'){
                     $('.success').css('display','block')
