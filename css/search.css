@@ -204,7 +204,6 @@ header .sortlist ul li:nth-child(4) .xia.active {
 .columnlist a li .Container .pic {
   width: 1.6rem;
   height: 1.6rem;
-  background: red;
 }
 
 .columnlist a li .Container .pic img {

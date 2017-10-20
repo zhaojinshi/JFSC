@@ -1,6 +1,13 @@
 @import "domo";
 body{
   background: #fcfcfc;
+  height: 100%;
+}
+html{
+  height: 100%;
+}
+.top{
+  padding-bottom: 1rem;
 }
 header{
   padding: 0.2rem 0.26rem;
